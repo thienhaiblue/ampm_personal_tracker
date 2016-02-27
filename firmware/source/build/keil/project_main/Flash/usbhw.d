@@ -1,0 +1,13 @@
+.\flash\usbhw.o: ..\..\..\src\drivers\usb\usbhw.c
+.\flash\usbhw.o: ..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include\MKL25Z4.H
+.\flash\usbhw.o: C:\Keil\ARM\CMSIS\Include\core_cm0plus.h
+.\flash\usbhw.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\flash\usbhw.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\flash\usbhw.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\flash\usbhw.o: ..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include\system_MKL25Z4.h
+.\flash\usbhw.o: ..\..\..\src\drivers\usb\usb.h
+.\flash\usbhw.o: ..\..\..\src\projects\project_main\usbcfg.h
+.\flash\usbhw.o: ..\..\..\src\drivers\usb\usbreg.h
+.\flash\usbhw.o: ..\..\..\src\drivers\usb\usbhw.h
+.\flash\usbhw.o: ..\..\..\src\drivers\usb\usbcore.h
+.\flash\usbhw.o: ..\..\..\src\projects\project_main\usbuser.h

@@ -1,0 +1,14 @@
+.\flash\sys_time.o: ..\..\..\src\Libraries\common_lib\sys_time\sys_time.c
+.\flash\sys_time.o: ..\..\..\src\Libraries\common_lib\sys_time\sys_time.h
+.\flash\sys_time.o: C:\Keil\ARM\ARMCC\bin\..\include\time.h
+.\flash\sys_time.o: ..\..\..\src\Libraries\common_lib\gps\gps.h
+.\flash\sys_time.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\flash\sys_time.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\flash\sys_time.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\flash\sys_time.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\flash\sys_time.o: C:\Keil\ARM\ARMCC\bin\..\include\ctype.h
+.\flash\sys_time.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\flash\sys_time.o: C:\Keil\ARM\ARMCC\bin\..\include\limits.h
+.\flash\sys_time.o: C:\Keil\ARM\ARMCC\bin\..\include\math.h
+.\flash\sys_time.o: ..\..\..\src\drivers\tick\tick.h
+.\flash\sys_time.o: ..\..\..\src\Libraries\common_lib\sys_time\m_time.h

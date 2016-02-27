@@ -1,0 +1,16 @@
+.\flash\flash_ramfunc.o: ..\..\..\src\drivers\FTFA\flash_ramFunc.c
+.\flash\flash_ramfunc.o: ..\..\..\src\common\common.h
+.\flash\flash_ramfunc.o: ..\..\..\src\platforms\freedom.h
+.\flash\flash_ramfunc.o: ..\..\..\src\drivers\mcg\mcg.h
+.\flash\flash_ramfunc.o: ..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include\MKL25Z4.h
+.\flash\flash_ramfunc.o: C:\Keil\ARM\CMSIS\Include\core_cm0plus.h
+.\flash\flash_ramfunc.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\flash\flash_ramfunc.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\flash\flash_ramfunc.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\flash\flash_ramfunc.o: ..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include\system_MKL25Z4.h
+.\flash\flash_ramfunc.o: ..\..\..\src\cpu\headers\CMSIS\MemMapPtr_KL25Z4.h
+.\flash\flash_ramfunc.o: ..\..\..\src\common\assert.h
+.\flash\flash_ramfunc.o: ..\..\..\src\common\io.h
+.\flash\flash_ramfunc.o: ..\..\..\src\common\startup.h
+.\flash\flash_ramfunc.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\flash\flash_ramfunc.o: ..\..\..\src\cpu\headers\CMSIS\MemMapPtr_KL25Z4.h

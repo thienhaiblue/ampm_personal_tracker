@@ -1,0 +1,16 @@
+.\flash\mcg.o: ..\..\..\src\drivers\mcg\mcg.c
+.\flash\mcg.o: ..\..\..\src\common\common.h
+.\flash\mcg.o: ..\..\..\src\platforms\freedom.h
+.\flash\mcg.o: ..\..\..\src\drivers\mcg\mcg.h
+.\flash\mcg.o: ..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include\MKL25Z4.h
+.\flash\mcg.o: C:\Keil\ARM\CMSIS\Include\core_cm0plus.h
+.\flash\mcg.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\flash\mcg.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\flash\mcg.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\flash\mcg.o: ..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include\system_MKL25Z4.h
+.\flash\mcg.o: ..\..\..\src\cpu\headers\CMSIS\MemMapPtr_KL25Z4.h
+.\flash\mcg.o: ..\..\..\src\common\assert.h
+.\flash\mcg.o: ..\..\..\src\common\io.h
+.\flash\mcg.o: ..\..\..\src\common\startup.h
+.\flash\mcg.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\flash\mcg.o: ..\..\..\src\cpu\headers\CMSIS\MemMapPtr_KL25Z4.h

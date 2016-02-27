@@ -1,0 +1,14 @@
+.__i
+._ia
+.crf
+.d
+.iex
+.axf
+.htm
+.lnp
+.sct
+.tra
+.bak
+.Bak
+.map
+.lst

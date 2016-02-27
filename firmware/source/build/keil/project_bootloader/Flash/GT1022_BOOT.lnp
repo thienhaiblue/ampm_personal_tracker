@@ -1,0 +1,23 @@
+--cpu Cortex-M0+
+".\flash\flashprog.o"
+".\flash\project_bootloader.o"
+".\flash\system_mkl25z4.o"
+".\flash\sysinit.o"
+".\flash\startup_mkl25z4.o"
+".\flash\spi.o"
+".\flash\fmc.o"
+".\flash\ringbuf.o"
+".\flash\flash_ftfa.o"
+".\flash\flash_ramfunc.o"
+".\flash\hiduser.o"
+".\flash\usbcore.o"
+".\flash\usbhw.o"
+".\flash\usbdesc.o"
+".\flash\usbuser.o"
+".\flash\mscuser.o"
+".\flash\cdcuser.o"
+".\flash\sst25.o"
+--library_type=microlib --strict --scatter ".\Flash\GT1022_BOOT.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\UV4Build\GT1022_BOOT.map" -o .\Flash\GT1022_BOOT.axf

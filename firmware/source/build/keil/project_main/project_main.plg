@@ -1,0 +1,1442 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Profiles\B38350\My Documents\Code Repositories\L2K\CMSIS SC\KL25_SC_CMSIS\build\keil\platinum\platinum.uvproj
+Project File Date:  07/20/2012
+
+<h2>Output:</h2>
+Rebuild target 'Flash Target'
+compiling platinum.c...
+..\..\..\src\projects\platinum\platinum.c(7): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling uif.c...
+..\..\..\src\common\common.h(34): error:  #5: cannot open source input file "tower.h": No such file or directory
+compiling alloc.c...
+..\..\..\src\common\common.h(34): error:  #5: cannot open source input file "tower.h": No such file or directory
+compiling assert.c...
+..\..\..\src\common\common.h(34): error:  #5: cannot open source input file "tower.h": No such file or directory
+compiling io.c...
+..\..\..\src\common\common.h(34): error:  #5: cannot open source input file "tower.h": No such file or directory
+compiling memtest.c...
+compiling printf.c...
+..\..\..\src\common\common.h(34): error:  #5: cannot open source input file "tower.h": No such file or directory
+compiling queue.c...
+..\..\..\src\common\common.h(34): error:  #5: cannot open source input file "tower.h": No such file or directory
+compiling startup.c...
+..\..\..\src\common\common.h(34): error:  #5: cannot open source input file "tower.h": No such file or directory
+compiling stdlib.c...
+..\..\..\src\common\common.h(34): error:  #5: cannot open source input file "tower.h": No such file or directory
+compiling vectors.c...
+..\..\..\src\cpu\vectors.h(130): warning:  #1-D: last line of file ends without a newline
+..\..\..\src\cpu\vectors.c(8): error:  #5: cannot open source input file "isr.h": No such file or directory
+compiling nmi_isr_handler.c...
+..\..\..\src\cpu\nmi_isr_handler.c(9): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling start.c...
+..\..\..\src\cpu\start.c(9): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling sysinit.c...
+..\..\..\src\cpu\sysinit.c(11): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling system_MKL25Z4.c...
+..\..\..\src\cpu\system_MKL25Z4.c(43): error:  #5: cannot open source input file "MKL25Z4.h": No such file or directory
+compiling cmp.c...
+..\..\..\src\drivers\cmp\cmp.c(10): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling llwu.c...
+..\..\..\src\drivers\llwu\llwu.c(12): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling lptmr.c...
+..\..\..\src\drivers\lptmr\lptmr.c(13): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling mcg.c...
+..\..\..\src\drivers\mcg\mcg.c(9): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling pmc.c...
+..\..\..\src\drivers\pmc\pmc.c(22): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling prelim_ftfl.c...
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(1): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling rcm.c...
+..\..\..\src\drivers\rcm\rcm.c(7): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling rtc.c...
+..\..\..\src\drivers\rtc\rtc.c(10): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling smc.c...
+..\..\..\src\drivers\smc\smc.c(22): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling uart.c...
+..\..\..\src\drivers\uart\uart.c(9): error:  #5: cannot open source input file "common.h": No such file or directory
+Target not created
+Rebuild target 'Flash Target'
+compiling platinum.c...
+..\..\..\src\projects\platinum\platinum.c(7): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling uif.c...
+..\..\..\src\common\common.h(34): error:  #5: cannot open source input file "tower.h": No such file or directory
+compiling alloc.c...
+..\..\..\src\common\common.h(34): error:  #5: cannot open source input file "tower.h": No such file or directory
+compiling assert.c...
+..\..\..\src\common\common.h(34): error:  #5: cannot open source input file "tower.h": No such file or directory
+compiling io.c...
+..\..\..\src\common\common.h(34): error:  #5: cannot open source input file "tower.h": No such file or directory
+compiling memtest.c...
+compiling printf.c...
+..\..\..\src\common\common.h(34): error:  #5: cannot open source input file "tower.h": No such file or directory
+compiling queue.c...
+..\..\..\src\common\common.h(34): error:  #5: cannot open source input file "tower.h": No such file or directory
+compiling startup.c...
+..\..\..\src\common\common.h(34): error:  #5: cannot open source input file "tower.h": No such file or directory
+compiling stdlib.c...
+..\..\..\src\common\common.h(34): error:  #5: cannot open source input file "tower.h": No such file or directory
+compiling vectors.c...
+..\..\..\src\cpu\vectors.h(130): warning:  #1-D: last line of file ends without a newline
+..\..\..\src\cpu\vectors.c(8): error:  #5: cannot open source input file "isr.h": No such file or directory
+compiling nmi_isr_handler.c...
+..\..\..\src\cpu\nmi_isr_handler.c(9): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling start.c...
+..\..\..\src\cpu\start.c(9): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling sysinit.c...
+..\..\..\src\cpu\sysinit.c(11): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling system_MKL25Z4.c...
+..\..\..\src\cpu\system_MKL25Z4.c(43): error:  #5: cannot open source input file "MKL25Z4.h": No such file or directory
+compiling cmp.c...
+..\..\..\src\drivers\cmp\cmp.c(10): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling llwu.c...
+..\..\..\src\drivers\llwu\llwu.c(12): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling lptmr.c...
+..\..\..\src\drivers\lptmr\lptmr.c(13): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling mcg.c...
+..\..\..\src\drivers\mcg\mcg.c(9): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling pmc.c...
+..\..\..\src\drivers\pmc\pmc.c(22): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling prelim_ftfl.c...
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(1): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling rcm.c...
+..\..\..\src\drivers\rcm\rcm.c(7): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling rtc.c...
+..\..\..\src\drivers\rtc\rtc.c(10): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling smc.c...
+..\..\..\src\drivers\smc\smc.c(22): error:  #5: cannot open source input file "common.h": No such file or directory
+compiling uart.c...
+..\..\..\src\drivers\uart\uart.c(9): error:  #5: cannot open source input file "common.h": No such file or directory
+Target not created
+Rebuild target 'Flash Target'
+compiling platinum.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling uif.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling alloc.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling assert.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling io.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling memtest.c...
+compiling printf.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling queue.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling startup.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling stdlib.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling vectors.c...
+..\..\..\src\cpu\vectors.h(130): warning:  #1-D: last line of file ends without a newline
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling nmi_isr_handler.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling start.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling sysinit.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling system_MKL25Z4.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling cmp.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling llwu.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling lptmr.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling mcg.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling pmc.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling prelim_ftfl.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling rcm.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling rtc.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling smc.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+compiling uart.c...
+..\..\..\src\cpu\headers\MKL25Z4.h(121): error:  #5: cannot open source input file "core_cm0plus.h": No such file or directory
+Target not created
+Rebuild target 'Flash Target'
+compiling platinum.c...
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+compiling uif.c...
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+compiling alloc.c...
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+compiling assert.c...
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+compiling io.c...
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+compiling memtest.c...
+compiling printf.c...
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+compiling queue.c...
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+compiling startup.c...
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+compiling stdlib.c...
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+compiling vectors.c...
+..\..\..\src\cpu\vectors.h(130): warning:  #1-D: last line of file ends without a newline
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+compiling nmi_isr_handler.c...
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+compiling start.c...
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+compiling sysinit.c...
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+compiling system_MKL25Z4.c...
+compiling cmp.c...
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+compiling llwu.c...
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+compiling lptmr.c...
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+compiling mcg.c...
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+compiling pmc.c...
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+compiling prelim_ftfl.c...
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+compiling rcm.c...
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+compiling rtc.c...
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+compiling smc.c...
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+compiling uart.c...
+..\..\..\src\common\common.h(81): error:  #5: cannot open source input file "intrinsics.h": No such file or directory
+Target not created
+Rebuild target 'Flash Target'
+compiling platinum.c...
+..\..\..\src\projects\platinum\platinum.c(30): warning:  #1-D: last line of file ends without a newline
+compiling uif.c...
+..\..\..\src\common\uif.c(163): warning:  #1293-D: assignment in condition
+compiling alloc.c...
+..\..\..\src\common\alloc.c(11): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\alloc.c(94): error:  #20: identifier "__HEAP_START" is undefined
+..\..\..\src\common\alloc.c(95): error:  #20: identifier "__HEAP_END" is undefined
+compiling assert.c...
+compiling io.c...
+compiling memtest.c...
+compiling printf.c...
+compiling queue.c...
+compiling startup.c...
+..\..\..\src\common\startup.c(10): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(11): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(12): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(13): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(14): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(42): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(42): warning:  #223-D: function "__section_begin" declared implicitly
+..\..\..\src\common\startup.c(42): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(43): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(43): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(44): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(44): warning:  #223-D: function "__section_end" declared implicitly
+..\..\..\src\common\startup.c(44): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(53): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(53): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(54): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(54): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(67): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(67): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(68): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(68): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(69): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(69): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+compiling stdlib.c...
+compiling vectors.c...
+..\..\..\src\cpu\vectors.h(130): warning:  #1-D: last line of file ends without a newline
+..\..\..\src\cpu\vectors.c(21): error:  #169: expected a declaration
+..\..\..\src\cpu\vectors.c(42): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(42): error:  #147: declaration is incompatible with "void default_isr(void)" (declared at line 15 of "..\..\..\src\cpu\vectors.h")
+..\..\..\src\cpu\vectors.c(43): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(44): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(45): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(46): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(47): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(48): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(49): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(50): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(51): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(52): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(53): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(54): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(55): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(56): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(57): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(58): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(59): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(60): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(61): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(62): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(63): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(64): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(65): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(66): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(67): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(68): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(69): error:  #77-D: this declaration has no storage class or type specifier
+compiling nmi_isr_handler.c...
+..\..\..\src\cpu\nmi_isr_handler.h(8): warning:  #1-D: last line of file ends without a newline
+compiling start.c...
+compiling sysinit.c...
+compiling system_MKL25Z4.c...
+compiling cmp.c...
+compiling llwu.c...
+compiling lptmr.c...
+compiling mcg.c...
+compiling pmc.c...
+compiling prelim_ftfl.c...
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(34): error:  #20: identifier "FTFL_FCNFG_CCIE_SHIFT" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(34): error:  #20: identifier "FTFL_FCNFG_RDCOLLIE_SHIFT" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG_CCIE_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG_RDCOLLIE_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #20: identifier "__ramfunc" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #101: "uint8_t" has already been declared in the current scope
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #65: expected a ";"
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(71): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(72): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(72): error:  #20: identifier "cmd" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(73): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(74): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(75): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(76): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(77): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(78): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(79): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(80): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(83): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(83): error:  #20: identifier "FTFL_FSTAT_CCIF_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(85): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(107): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(108): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(175): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(177): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(178): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(204): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(205): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(294): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(295): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(331): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(332): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(370): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(371): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(401): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(403): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(403): error:  #59: function call is not allowed in a constant expression
+compiling rcm.c...
+compiling rtc.c...
+compiling smc.c...
+..\..\..\src\drivers\smc\smc.c(43): warning:  #223-D: function "asm" declared implicitly
+..\..\..\src\drivers\smc\smc.c(62): warning:  #223-D: function "asm" declared implicitly
+..\..\..\src\drivers\smc\smc.c(147): warning:  #223-D: function "__wfI" declared implicitly
+..\..\..\src\drivers\smc\smc.c(285): warning:  #223-D: function "__wfI" declared implicitly
+..\..\..\src\drivers\smc\smc.c(326): warning:  #223-D: function "__wfI" declared implicitly
+..\..\..\src\drivers\smc\smc.c(368): warning:  #223-D: function "__wfI" declared implicitly
+..\..\..\src\drivers\smc\smc.c(410): warning:  #223-D: function "__wfI" declared implicitly
+..\..\..\src\drivers\smc\smc.c(453): warning:  #223-D: function "__wfI" declared implicitly
+..\..\..\src\drivers\smc\smc.c(509): warning:  #223-D: function "__wfI" declared implicitly
+..\..\..\src\drivers\smc\smc.c(560): warning:  #223-D: function "__wfI" declared implicitly
+compiling uart.c...
+..\..\..\src\drivers\uart\uart.c(130): warning:  #177-D: variable "sbr" was declared but never referenced
+..\..\..\src\drivers\uart\uart.c(131): warning:  #177-D: variable "clksrc_num" was declared but never referenced
+Target not created
+Rebuild target 'Flash Target'
+compiling platinum.c...
+..\..\..\src\projects\platinum\platinum.c(30): warning:  #1-D: last line of file ends without a newline
+compiling uif.c...
+..\..\..\src\common\uif.c(163): warning:  #1293-D: assignment in condition
+compiling alloc.c...
+..\..\..\src\common\alloc.c(11): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\alloc.c(94): error:  #20: identifier "__HEAP_START" is undefined
+..\..\..\src\common\alloc.c(95): error:  #20: identifier "__HEAP_END" is undefined
+compiling assert.c...
+compiling io.c...
+compiling memtest.c...
+compiling printf.c...
+compiling queue.c...
+compiling startup.c...
+..\..\..\src\common\startup.c(10): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(11): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(12): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(13): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(14): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(42): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(42): warning:  #223-D: function "__section_begin" declared implicitly
+..\..\..\src\common\startup.c(42): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(43): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(43): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(44): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(44): warning:  #223-D: function "__section_end" declared implicitly
+..\..\..\src\common\startup.c(44): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(53): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(53): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(54): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(54): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(67): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(67): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(68): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(68): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(69): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(69): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+compiling stdlib.c...
+compiling vectors.c...
+..\..\..\src\cpu\vectors.h(130): warning:  #1-D: last line of file ends without a newline
+..\..\..\src\cpu\vectors.c(21): error:  #169: expected a declaration
+..\..\..\src\cpu\vectors.c(42): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(42): error:  #147: declaration is incompatible with "void default_isr(void)" (declared at line 15 of "..\..\..\src\cpu\vectors.h")
+..\..\..\src\cpu\vectors.c(43): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(44): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(45): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(46): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(47): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(48): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(49): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(50): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(51): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(52): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(53): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(54): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(55): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(56): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(57): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(58): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(59): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(60): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(61): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(62): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(63): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(64): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(65): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(66): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(67): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(68): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(69): error:  #77-D: this declaration has no storage class or type specifier
+compiling nmi_isr_handler.c...
+..\..\..\src\cpu\nmi_isr_handler.h(8): warning:  #1-D: last line of file ends without a newline
+compiling start.c...
+compiling sysinit.c...
+compiling system_MKL25Z4.c...
+compiling cmp.c...
+compiling llwu.c...
+compiling lptmr.c...
+compiling mcg.c...
+compiling pmc.c...
+compiling prelim_ftfl.c...
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(34): error:  #20: identifier "FTFL_FCNFG_CCIE_SHIFT" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(34): error:  #20: identifier "FTFL_FCNFG_RDCOLLIE_SHIFT" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG_CCIE_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG_RDCOLLIE_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #20: identifier "__ramfunc" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #101: "uint8_t" has already been declared in the current scope
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #65: expected a ";"
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(71): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(72): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(72): error:  #20: identifier "cmd" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(73): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(74): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(75): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(76): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(77): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(78): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(79): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(80): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(83): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(83): error:  #20: identifier "FTFL_FSTAT_CCIF_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(85): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(107): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(108): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(175): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(177): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(178): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(204): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(205): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(294): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(295): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(331): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(332): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(370): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(371): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(401): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(403): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(403): error:  #59: function call is not allowed in a constant expression
+compiling rcm.c...
+compiling rtc.c...
+compiling smc.c...
+..\..\..\src\drivers\smc\smc.c(43): warning:  #223-D: function "asm" declared implicitly
+..\..\..\src\drivers\smc\smc.c(62): warning:  #223-D: function "asm" declared implicitly
+..\..\..\src\drivers\smc\smc.c(147): warning:  #223-D: function "__wfI" declared implicitly
+..\..\..\src\drivers\smc\smc.c(285): warning:  #223-D: function "__wfI" declared implicitly
+..\..\..\src\drivers\smc\smc.c(368): warning:  #223-D: function "__wfI" declared implicitly
+..\..\..\src\drivers\smc\smc.c(410): warning:  #223-D: function "__wfI" declared implicitly
+..\..\..\src\drivers\smc\smc.c(453): warning:  #223-D: function "__wfI" declared implicitly
+..\..\..\src\drivers\smc\smc.c(509): warning:  #223-D: function "__wfI" declared implicitly
+..\..\..\src\drivers\smc\smc.c(560): warning:  #223-D: function "__wfI" declared implicitly
+compiling uart.c...
+..\..\..\src\drivers\uart\uart.c(130): warning:  #177-D: variable "sbr" was declared but never referenced
+..\..\..\src\drivers\uart\uart.c(131): warning:  #177-D: variable "clksrc_num" was declared but never referenced
+Target not created
+Rebuild target 'Flash Target'
+compiling platinum.c...
+..\..\..\src\projects\platinum\platinum.c(30): warning:  #1-D: last line of file ends without a newline
+compiling uif.c...
+..\..\..\src\common\uif.c(163): warning:  #1293-D: assignment in condition
+compiling alloc.c...
+..\..\..\src\common\alloc.c(11): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\alloc.c(94): error:  #20: identifier "__HEAP_START" is undefined
+..\..\..\src\common\alloc.c(95): error:  #20: identifier "__HEAP_END" is undefined
+compiling assert.c...
+compiling io.c...
+compiling memtest.c...
+compiling printf.c...
+compiling queue.c...
+compiling startup.c...
+..\..\..\src\common\startup.c(10): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(11): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(12): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(13): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(14): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(42): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(42): warning:  #223-D: function "__section_begin" declared implicitly
+..\..\..\src\common\startup.c(42): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(43): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(43): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(44): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(44): warning:  #223-D: function "__section_end" declared implicitly
+..\..\..\src\common\startup.c(44): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(53): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(53): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(54): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(54): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(67): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(67): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(68): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(68): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(69): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(69): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+compiling stdlib.c...
+compiling vectors.c...
+..\..\..\src\cpu\vectors.h(130): warning:  #1-D: last line of file ends without a newline
+..\..\..\src\cpu\vectors.c(21): error:  #169: expected a declaration
+..\..\..\src\cpu\vectors.c(42): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(42): error:  #147: declaration is incompatible with "void default_isr(void)" (declared at line 15 of "..\..\..\src\cpu\vectors.h")
+..\..\..\src\cpu\vectors.c(43): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(44): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(45): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(46): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(47): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(48): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(49): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(50): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(51): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(52): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(53): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(54): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(55): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(56): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(57): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(58): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(59): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(60): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(61): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(62): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(63): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(64): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(65): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(66): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(67): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(68): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(69): error:  #77-D: this declaration has no storage class or type specifier
+compiling nmi_isr_handler.c...
+..\..\..\src\cpu\nmi_isr_handler.h(8): warning:  #1-D: last line of file ends without a newline
+compiling start.c...
+compiling sysinit.c...
+compiling system_MKL25Z4.c...
+compiling cmp.c...
+compiling llwu.c...
+compiling lptmr.c...
+compiling mcg.c...
+compiling pmc.c...
+compiling prelim_ftfl.c...
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(34): error:  #20: identifier "FTFL_FCNFG_CCIE_SHIFT" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(34): error:  #20: identifier "FTFL_FCNFG_RDCOLLIE_SHIFT" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG_CCIE_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG_RDCOLLIE_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #20: identifier "__ramfunc" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #101: "uint8_t" has already been declared in the current scope
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #65: expected a ";"
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(71): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(72): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(72): error:  #20: identifier "cmd" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(73): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(74): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(75): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(76): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(77): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(78): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(79): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(80): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(83): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(83): error:  #20: identifier "FTFL_FSTAT_CCIF_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(85): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(107): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(108): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(175): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(177): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(178): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(204): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(205): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(294): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(295): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(331): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(332): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(370): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(371): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(401): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(403): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(403): error:  #59: function call is not allowed in a constant expression
+compiling rcm.c...
+compiling rtc.c...
+compiling smc.c...
+..\..\..\src\drivers\smc\smc.c(43): warning:  #223-D: function "asm" declared implicitly
+..\..\..\src\drivers\smc\smc.c(62): warning:  #223-D: function "asm" declared implicitly
+..\..\..\src\drivers\smc\smc.c(147): warning:  #223-D: function "__wfI" declared implicitly
+..\..\..\src\drivers\smc\smc.c(285): warning:  #223-D: function "__wfI" declared implicitly
+..\..\..\src\drivers\smc\smc.c(368): warning:  #223-D: function "__wfI" declared implicitly
+..\..\..\src\drivers\smc\smc.c(453): warning:  #223-D: function "__wfI" declared implicitly
+..\..\..\src\drivers\smc\smc.c(509): warning:  #223-D: function "__wfI" declared implicitly
+..\..\..\src\drivers\smc\smc.c(560): warning:  #223-D: function "__wfI" declared implicitly
+compiling uart.c...
+..\..\..\src\drivers\uart\uart.c(130): warning:  #177-D: variable "sbr" was declared but never referenced
+..\..\..\src\drivers\uart\uart.c(131): warning:  #177-D: variable "clksrc_num" was declared but never referenced
+Target not created
+Rebuild target 'Flash Target'
+compiling platinum.c...
+..\..\..\src\projects\platinum\platinum.c(30): warning:  #1-D: last line of file ends without a newline
+compiling uif.c...
+..\..\..\src\common\uif.c(163): warning:  #1293-D: assignment in condition
+compiling alloc.c...
+..\..\..\src\common\alloc.c(11): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\alloc.c(94): error:  #20: identifier "__HEAP_START" is undefined
+..\..\..\src\common\alloc.c(95): error:  #20: identifier "__HEAP_END" is undefined
+compiling assert.c...
+compiling io.c...
+compiling memtest.c...
+compiling printf.c...
+compiling queue.c...
+compiling startup.c...
+..\..\..\src\common\startup.c(10): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(11): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(12): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(13): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(14): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(42): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(42): warning:  #223-D: function "__section_begin" declared implicitly
+..\..\..\src\common\startup.c(42): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(43): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(43): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(44): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(44): warning:  #223-D: function "__section_end" declared implicitly
+..\..\..\src\common\startup.c(44): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(53): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(53): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(54): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(54): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(67): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(67): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(68): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(68): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(69): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(69): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+compiling stdlib.c...
+compiling vectors.c...
+..\..\..\src\cpu\vectors.h(130): warning:  #1-D: last line of file ends without a newline
+..\..\..\src\cpu\vectors.c(21): error:  #169: expected a declaration
+..\..\..\src\cpu\vectors.c(42): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(42): error:  #147: declaration is incompatible with "void default_isr(void)" (declared at line 15 of "..\..\..\src\cpu\vectors.h")
+..\..\..\src\cpu\vectors.c(43): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(44): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(45): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(46): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(47): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(48): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(49): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(50): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(51): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(52): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(53): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(54): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(55): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(56): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(57): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(58): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(59): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(60): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(61): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(62): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(63): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(64): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(65): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(66): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(67): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(68): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(69): error:  #77-D: this declaration has no storage class or type specifier
+compiling nmi_isr_handler.c...
+..\..\..\src\cpu\nmi_isr_handler.h(8): warning:  #1-D: last line of file ends without a newline
+compiling start.c...
+compiling sysinit.c...
+compiling system_MKL25Z4.c...
+compiling cmp.c...
+compiling llwu.c...
+compiling lptmr.c...
+compiling mcg.c...
+compiling pmc.c...
+compiling prelim_ftfl.c...
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(34): error:  #20: identifier "FTFL_FCNFG_CCIE_SHIFT" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(34): error:  #20: identifier "FTFL_FCNFG_RDCOLLIE_SHIFT" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG_CCIE_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG_RDCOLLIE_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #20: identifier "__ramfunc" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #101: "uint8_t" has already been declared in the current scope
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #65: expected a ";"
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(71): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(72): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(72): error:  #20: identifier "cmd" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(73): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(74): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(75): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(76): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(77): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(78): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(79): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(80): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(83): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(83): error:  #20: identifier "FTFL_FSTAT_CCIF_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(85): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(107): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(108): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(175): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(177): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(178): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(204): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(205): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(294): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(295): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(331): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(332): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(370): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(371): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(401): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(403): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(403): error:  #59: function call is not allowed in a constant expression
+compiling rcm.c...
+compiling rtc.c...
+compiling smc.c...
+..\..\..\src\drivers\smc\smc.c(155): warning:  #223-D: function "__wfI" declared implicitly
+..\..\..\src\drivers\smc\smc.c(293): warning:  #223-D: function "__wfI" declared implicitly
+..\..\..\src\drivers\smc\smc.c(376): warning:  #223-D: function "__wfI" declared implicitly
+..\..\..\src\drivers\smc\smc.c(517): warning:  #223-D: function "__wfI" declared implicitly
+..\..\..\src\drivers\smc\smc.c(568): warning:  #223-D: function "__wfI" declared implicitly
+compiling uart.c...
+..\..\..\src\drivers\uart\uart.c(130): warning:  #177-D: variable "sbr" was declared but never referenced
+..\..\..\src\drivers\uart\uart.c(131): warning:  #177-D: variable "clksrc_num" was declared but never referenced
+Target not created
+Rebuild target 'Flash Target'
+compiling platinum.c...
+..\..\..\src\projects\platinum\platinum.c(30): warning:  #1-D: last line of file ends without a newline
+compiling uif.c...
+..\..\..\src\common\uif.c(163): warning:  #1293-D: assignment in condition
+compiling alloc.c...
+..\..\..\src\common\alloc.c(11): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\alloc.c(94): error:  #20: identifier "__HEAP_START" is undefined
+..\..\..\src\common\alloc.c(95): error:  #20: identifier "__HEAP_END" is undefined
+compiling assert.c...
+compiling io.c...
+compiling memtest.c...
+compiling printf.c...
+compiling queue.c...
+compiling startup.c...
+..\..\..\src\common\startup.c(10): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(11): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(12): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(13): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(14): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(42): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(42): warning:  #223-D: function "__section_begin" declared implicitly
+..\..\..\src\common\startup.c(42): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(43): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(43): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(44): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(44): warning:  #223-D: function "__section_end" declared implicitly
+..\..\..\src\common\startup.c(44): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(53): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(53): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(54): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(54): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(67): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(67): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(68): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(68): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(69): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(69): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+compiling stdlib.c...
+compiling vectors.c...
+..\..\..\src\cpu\vectors.h(130): warning:  #1-D: last line of file ends without a newline
+..\..\..\src\cpu\vectors.c(21): error:  #169: expected a declaration
+..\..\..\src\cpu\vectors.c(42): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(42): error:  #147: declaration is incompatible with "void default_isr(void)" (declared at line 15 of "..\..\..\src\cpu\vectors.h")
+..\..\..\src\cpu\vectors.c(43): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(44): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(45): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(46): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(47): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(48): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(49): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(50): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(51): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(52): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(53): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(54): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(55): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(56): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(57): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(58): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(59): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(60): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(61): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(62): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(63): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(64): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(65): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(66): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(67): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(68): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(69): error:  #77-D: this declaration has no storage class or type specifier
+compiling nmi_isr_handler.c...
+..\..\..\src\cpu\nmi_isr_handler.h(8): warning:  #1-D: last line of file ends without a newline
+compiling start.c...
+compiling sysinit.c...
+compiling system_MKL25Z4.c...
+compiling cmp.c...
+compiling llwu.c...
+compiling lptmr.c...
+compiling mcg.c...
+compiling pmc.c...
+compiling prelim_ftfl.c...
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(34): error:  #20: identifier "FTFL_FCNFG_CCIE_SHIFT" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(34): error:  #20: identifier "FTFL_FCNFG_RDCOLLIE_SHIFT" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG_CCIE_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG_RDCOLLIE_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #20: identifier "__ramfunc" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #101: "uint8_t" has already been declared in the current scope
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #65: expected a ";"
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(71): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(72): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(72): error:  #20: identifier "cmd" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(73): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(74): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(75): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(76): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(77): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(78): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(79): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(80): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(83): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(83): error:  #20: identifier "FTFL_FSTAT_CCIF_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(85): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(107): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(108): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(175): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(177): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(178): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(204): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(205): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(294): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(295): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(331): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(332): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(370): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(371): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(401): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(403): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(403): error:  #59: function call is not allowed in a constant expression
+compiling rcm.c...
+compiling rtc.c...
+compiling smc.c...
+compiling uart.c...
+..\..\..\src\drivers\uart\uart.c(130): warning:  #177-D: variable "sbr" was declared but never referenced
+..\..\..\src\drivers\uart\uart.c(131): warning:  #177-D: variable "clksrc_num" was declared but never referenced
+Target not created
+Rebuild target 'Flash Target'
+compiling platinum.c...
+..\..\..\src\projects\platinum\platinum.c(30): warning:  #1-D: last line of file ends without a newline
+compiling uif.c...
+..\..\..\src\common\uif.c(163): warning:  #1293-D: assignment in condition
+compiling alloc.c...
+..\..\..\src\common\alloc.c(11): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\alloc.c(94): error:  #20: identifier "__HEAP_START" is undefined
+..\..\..\src\common\alloc.c(95): error:  #20: identifier "__HEAP_END" is undefined
+compiling assert.c...
+compiling io.c...
+compiling memtest.c...
+compiling printf.c...
+compiling queue.c...
+compiling startup.c...
+..\..\..\src\common\startup.c(10): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(11): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(12): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(13): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(14): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(24): warning:  #223-D: function "__section_begin" declared implicitly
+..\..\..\src\common\startup.c(24): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(25): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(26): warning:  #223-D: function "__section_end" declared implicitly
+..\..\..\src\common\startup.c(26): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(52): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(52): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(53): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(53): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(66): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(66): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(67): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(67): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(68): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(68): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+compiling stdlib.c...
+compiling vectors.c...
+..\..\..\src\cpu\vectors.h(130): warning:  #1-D: last line of file ends without a newline
+..\..\..\src\cpu\vectors.c(21): error:  #169: expected a declaration
+..\..\..\src\cpu\vectors.c(42): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(42): error:  #147: declaration is incompatible with "void default_isr(void)" (declared at line 15 of "..\..\..\src\cpu\vectors.h")
+..\..\..\src\cpu\vectors.c(43): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(44): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(45): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(46): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(47): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(48): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(49): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(50): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(51): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(52): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(53): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(54): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(55): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(56): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(57): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(58): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(59): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(60): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(61): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(62): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(63): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(64): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(65): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(66): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(67): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(68): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\cpu\vectors.c(69): error:  #77-D: this declaration has no storage class or type specifier
+compiling nmi_isr_handler.c...
+..\..\..\src\cpu\nmi_isr_handler.h(8): warning:  #1-D: last line of file ends without a newline
+compiling start.c...
+compiling sysinit.c...
+compiling system_MKL25Z4.c...
+compiling cmp.c...
+compiling llwu.c...
+compiling lptmr.c...
+compiling mcg.c...
+compiling pmc.c...
+compiling prelim_ftfl.c...
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(34): error:  #20: identifier "FTFL_FCNFG_CCIE_SHIFT" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(34): error:  #20: identifier "FTFL_FCNFG_RDCOLLIE_SHIFT" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG_CCIE_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG_RDCOLLIE_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #20: identifier "__ramfunc" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #101: "uint8_t" has already been declared in the current scope
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #65: expected a ";"
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(71): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(72): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(72): error:  #20: identifier "cmd" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(73): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(74): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(75): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(76): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(77): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(78): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(79): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(80): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(83): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(83): error:  #20: identifier "FTFL_FSTAT_CCIF_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(85): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(107): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(108): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(175): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(177): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(178): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(204): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(205): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(294): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(295): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(331): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(332): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(370): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(371): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(401): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(403): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(403): error:  #59: function call is not allowed in a constant expression
+compiling rcm.c...
+compiling rtc.c...
+compiling smc.c...
+compiling uart.c...
+..\..\..\src\drivers\uart\uart.c(130): warning:  #177-D: variable "sbr" was declared but never referenced
+..\..\..\src\drivers\uart\uart.c(131): warning:  #177-D: variable "clksrc_num" was declared but never referenced
+Target not created
+Rebuild target 'Flash Target'
+compiling platinum.c...
+..\..\..\src\projects\platinum\platinum.c(30): warning:  #1-D: last line of file ends without a newline
+compiling uif.c...
+..\..\..\src\common\uif.c(163): warning:  #1293-D: assignment in condition
+compiling alloc.c...
+..\..\..\src\common\alloc.c(11): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\alloc.c(94): error:  #20: identifier "__HEAP_START" is undefined
+..\..\..\src\common\alloc.c(95): error:  #20: identifier "__HEAP_END" is undefined
+compiling assert.c...
+compiling io.c...
+compiling memtest.c...
+compiling printf.c...
+compiling queue.c...
+compiling startup.c...
+..\..\..\src\common\startup.c(10): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(11): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(12): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(13): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(14): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(24): warning:  #223-D: function "__section_begin" declared implicitly
+..\..\..\src\common\startup.c(24): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(25): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(26): warning:  #223-D: function "__section_end" declared implicitly
+..\..\..\src\common\startup.c(26): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(52): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(52): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(53): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(53): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(66): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(66): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(67): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(67): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(68): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(68): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+compiling stdlib.c...
+compiling nmi_isr_handler.c...
+..\..\..\src\cpu\nmi_isr_handler.h(8): warning:  #1-D: last line of file ends without a newline
+compiling start.c...
+compiling sysinit.c...
+compiling system_MKL25Z4.c...
+compiling cmp.c...
+compiling llwu.c...
+compiling lptmr.c...
+compiling mcg.c...
+compiling pmc.c...
+compiling prelim_ftfl.c...
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(34): error:  #20: identifier "FTFL_FCNFG_CCIE_SHIFT" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(34): error:  #20: identifier "FTFL_FCNFG_RDCOLLIE_SHIFT" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG_CCIE_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG_RDCOLLIE_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #20: identifier "__ramfunc" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #101: "uint8_t" has already been declared in the current scope
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #65: expected a ";"
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(71): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(72): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(72): error:  #20: identifier "cmd" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(73): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(74): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(75): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(76): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(77): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(78): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(79): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(80): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(83): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(83): error:  #20: identifier "FTFL_FSTAT_CCIF_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(85): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(107): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(108): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(175): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(177): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(178): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(204): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(205): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(294): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(295): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(331): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(332): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(370): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(371): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(401): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(403): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(403): error:  #59: function call is not allowed in a constant expression
+compiling rcm.c...
+compiling rtc.c...
+compiling smc.c...
+compiling uart.c...
+..\..\..\src\drivers\uart\uart.c(130): warning:  #177-D: variable "sbr" was declared but never referenced
+..\..\..\src\drivers\uart\uart.c(131): warning:  #177-D: variable "clksrc_num" was declared but never referenced
+Target not created
+Rebuild target 'Flash Target'
+compiling platinum.c...
+..\..\..\src\projects\platinum\platinum.c(30): warning:  #1-D: last line of file ends without a newline
+compiling uif.c...
+..\..\..\src\common\uif.c(163): warning:  #1293-D: assignment in condition
+compiling alloc.c...
+..\..\..\src\common\alloc.c(11): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\alloc.c(94): error:  #20: identifier "__HEAP_START" is undefined
+..\..\..\src\common\alloc.c(95): error:  #20: identifier "__HEAP_END" is undefined
+compiling assert.c...
+compiling io.c...
+compiling memtest.c...
+compiling printf.c...
+compiling queue.c...
+compiling startup.c...
+..\..\..\src\common\startup.c(10): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(11): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(12): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(13): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(14): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(24): warning:  #223-D: function "__section_begin" declared implicitly
+..\..\..\src\common\startup.c(24): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(25): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(26): warning:  #223-D: function "__section_end" declared implicitly
+..\..\..\src\common\startup.c(26): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(34): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(35): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(36): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(62): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(62): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(63): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(63): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+compiling stdlib.c...
+compiling nmi_isr_handler.c...
+..\..\..\src\cpu\nmi_isr_handler.h(8): warning:  #1-D: last line of file ends without a newline
+compiling start.c...
+compiling sysinit.c...
+compiling system_MKL25Z4.c...
+compiling cmp.c...
+compiling llwu.c...
+compiling lptmr.c...
+compiling mcg.c...
+compiling pmc.c...
+compiling prelim_ftfl.c...
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(34): error:  #20: identifier "FTFL_FCNFG_CCIE_SHIFT" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(34): error:  #20: identifier "FTFL_FCNFG_RDCOLLIE_SHIFT" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG_CCIE_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG_RDCOLLIE_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #20: identifier "__ramfunc" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #101: "uint8_t" has already been declared in the current scope
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #65: expected a ";"
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(71): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(72): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(72): error:  #20: identifier "cmd" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(73): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(74): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(75): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(76): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(77): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(78): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(79): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(80): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(83): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(83): error:  #20: identifier "FTFL_FSTAT_CCIF_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(85): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(107): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(108): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(175): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(177): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(178): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(204): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(205): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(294): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(295): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(331): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(332): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(370): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(371): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(401): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(403): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(403): error:  #59: function call is not allowed in a constant expression
+compiling rcm.c...
+compiling rtc.c...
+compiling smc.c...
+compiling uart.c...
+..\..\..\src\drivers\uart\uart.c(130): warning:  #177-D: variable "sbr" was declared but never referenced
+..\..\..\src\drivers\uart\uart.c(131): warning:  #177-D: variable "clksrc_num" was declared but never referenced
+Target not created
+Rebuild target 'Flash Target'
+compiling platinum.c...
+..\..\..\src\projects\platinum\platinum.c(30): warning:  #1-D: last line of file ends without a newline
+compiling uif.c...
+..\..\..\src\common\uif.c(163): warning:  #1293-D: assignment in condition
+compiling alloc.c...
+..\..\..\src\common\alloc.c(11): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\alloc.c(94): error:  #20: identifier "__HEAP_START" is undefined
+..\..\..\src\common\alloc.c(95): error:  #20: identifier "__HEAP_END" is undefined
+compiling assert.c...
+compiling io.c...
+compiling memtest.c...
+compiling printf.c...
+compiling queue.c...
+compiling startup.c...
+..\..\..\src\common\startup.c(10): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(11): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(12): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(13): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(14): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\startup.c(24): warning:  #223-D: function "__section_begin" declared implicitly
+..\..\..\src\common\startup.c(24): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(25): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(26): warning:  #223-D: function "__section_end" declared implicitly
+..\..\..\src\common\startup.c(26): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(34): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(35): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(36): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(62): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(62): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+..\..\..\src\common\startup.c(63): error:  #268: declaration may not appear after executable statement in block
+..\..\..\src\common\startup.c(63): error:  #144: a value of type "int" cannot be used to initialize an entity of type "uint8 *"
+compiling stdlib.c...
+compiling nmi_isr_handler.c...
+..\..\..\src\cpu\nmi_isr_handler.h(8): warning:  #1-D: last line of file ends without a newline
+compiling start.c...
+compiling sysinit.c...
+compiling system_MKL25Z4.c...
+compiling cmp.c...
+compiling llwu.c...
+compiling lptmr.c...
+compiling mcg.c...
+compiling pmc.c...
+compiling prelim_ftfl.c...
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(34): error:  #20: identifier "FTFL_FCNFG_CCIE_SHIFT" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(34): error:  #20: identifier "FTFL_FCNFG_RDCOLLIE_SHIFT" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG_CCIE_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG_RDCOLLIE_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #20: identifier "__ramfunc" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #101: "uint8_t" has already been declared in the current scope
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #65: expected a ";"
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(71): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(72): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(72): error:  #20: identifier "cmd" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(73): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(74): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(75): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(76): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(77): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(78): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(79): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(80): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(83): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(83): error:  #20: identifier "FTFL_FSTAT_CCIF_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(85): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(107): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(108): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(175): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(177): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(178): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(204): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(205): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(294): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(295): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(331): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(332): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(370): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(371): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(401): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(403): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(403): error:  #59: function call is not allowed in a constant expression
+compiling rcm.c...
+compiling rtc.c...
+compiling smc.c...
+compiling uart.c...
+..\..\..\src\drivers\uart\uart.c(130): warning:  #177-D: variable "sbr" was declared but never referenced
+..\..\..\src\drivers\uart\uart.c(131): warning:  #177-D: variable "clksrc_num" was declared but never referenced
+Target not created
+Rebuild target 'Flash Target'
+compiling platinum.c...
+..\..\..\src\projects\platinum\platinum.c(30): warning:  #1-D: last line of file ends without a newline
+compiling uif.c...
+..\..\..\src\common\uif.c(163): warning:  #1293-D: assignment in condition
+compiling alloc.c...
+..\..\..\src\common\alloc.c(11): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\alloc.c(94): error:  #20: identifier "__HEAP_START" is undefined
+..\..\..\src\common\alloc.c(95): error:  #20: identifier "__HEAP_END" is undefined
+compiling assert.c...
+compiling io.c...
+compiling memtest.c...
+compiling printf.c...
+compiling queue.c...
+compiling stdlib.c...
+compiling nmi_isr_handler.c...
+..\..\..\src\cpu\nmi_isr_handler.h(8): warning:  #1-D: last line of file ends without a newline
+compiling start.c...
+compiling sysinit.c...
+compiling system_MKL25Z4.c...
+compiling cmp.c...
+compiling llwu.c...
+compiling lptmr.c...
+compiling mcg.c...
+compiling pmc.c...
+compiling prelim_ftfl.c...
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(34): error:  #20: identifier "FTFL_FCNFG_CCIE_SHIFT" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(34): error:  #20: identifier "FTFL_FCNFG_RDCOLLIE_SHIFT" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG_CCIE_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(42): error:  #20: identifier "FTFL_FCNFG_RDCOLLIE_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #20: identifier "__ramfunc" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #101: "uint8_t" has already been declared in the current scope
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(49): error:  #65: expected a ";"
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(71): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(72): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(72): error:  #20: identifier "cmd" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(73): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(74): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(75): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(76): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(77): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(78): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(79): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(80): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(83): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(83): error:  #20: identifier "FTFL_FSTAT_CCIF_MASK" is undefined
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(85): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(107): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(108): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(175): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(177): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(178): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(204): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(205): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(294): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(295): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(331): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(332): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(370): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(371): error:  #169: expected a declaration
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(401): warning:  #12-D: parsing restarts here after previous syntax error
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(403): error:  #77-D: this declaration has no storage class or type specifier
+..\..\..\src\drivers\prelim_flash\prelim_ftfl.c(403): error:  #59: function call is not allowed in a constant expression
+compiling rcm.c...
+compiling rtc.c...
+compiling smc.c...
+compiling uart.c...
+..\..\..\src\drivers\uart\uart.c(130): warning:  #177-D: variable "sbr" was declared but never referenced
+..\..\..\src\drivers\uart\uart.c(131): warning:  #177-D: variable "clksrc_num" was declared but never referenced
+Target not created
+Rebuild target 'Flash Target'
+compiling platinum.c...
+..\..\..\src\projects\platinum\platinum.c(30): warning:  #1-D: last line of file ends without a newline
+compiling uif.c...
+..\..\..\src\common\uif.c(163): warning:  #1293-D: assignment in condition
+compiling alloc.c...
+..\..\..\src\common\alloc.c(11): warning:  #161-D: unrecognized #pragma
+..\..\..\src\common\alloc.c(94): error:  #20: identifier "__HEAP_START" is undefined
+..\..\..\src\common\alloc.c(95): error:  #20: identifier "__HEAP_END" is undefined
+compiling assert.c...
+compiling io.c...
+compiling memtest.c...
+compiling printf.c...
+compiling queue.c...
+compiling stdlib.c...
+compiling nmi_isr_handler.c...
+..\..\..\src\cpu\nmi_isr_handler.h(8): warning:  #1-D: last line of file ends without a newline
+compiling start.c...
+compiling sysinit.c...
+compiling system_MKL25Z4.c...
+compiling cmp.c...
+compiling llwu.c...
+compiling lptmr.c...
+compiling mcg.c...
+compiling pmc.c...
+compiling rcm.c...
+compiling rtc.c...
+compiling smc.c...
+compiling uart.c...
+..\..\..\src\drivers\uart\uart.c(130): warning:  #177-D: variable "sbr" was declared but never referenced
+..\..\..\src\drivers\uart\uart.c(131): warning:  #177-D: variable "clksrc_num" was declared but never referenced
+Target not created
+Rebuild target 'Flash Target'
+compiling platinum.c...
+..\..\..\src\projects\platinum\platinum.c(30): warning:  #1-D: last line of file ends without a newline
+compiling uif.c...
+..\..\..\src\common\uif.c(163): warning:  #1293-D: assignment in condition
+compiling alloc.c...
+..\..\..\src\common\alloc.c(11): warning:  #161-D: unrecognized #pragma
+compiling assert.c...
+compiling io.c...
+compiling memtest.c...
+compiling printf.c...
+compiling queue.c...
+compiling stdlib.c...
+compiling nmi_isr_handler.c...
+..\..\..\src\cpu\nmi_isr_handler.h(8): warning:  #1-D: last line of file ends without a newline
+compiling start.c...
+compiling sysinit.c...
+compiling system_MKL25Z4.c...
+compiling cmp.c...
+compiling llwu.c...
+compiling lptmr.c...
+compiling mcg.c...
+compiling pmc.c...
+compiling rcm.c...
+compiling rtc.c...
+compiling smc.c...
+compiling uart.c...
+..\..\..\src\drivers\uart\uart.c(130): warning:  #177-D: variable "sbr" was declared but never referenced
+..\..\..\src\drivers\uart\uart.c(131): warning:  #177-D: variable "clksrc_num" was declared but never referenced
+linking...
+platinum_Flash.sct(7): error: L6236E: No section matches selector - no section to be FIRST/LAST.
+"platinum_Flash.axf" - 1 Error(s), 6 Warning(s).
+Rebuild target 'Flash Target'
+compiling platinum.c...
+..\..\..\src\projects\platinum\platinum.c(30): warning:  #1-D: last line of file ends without a newline
+compiling uif.c...
+..\..\..\src\common\uif.c(163): warning:  #1293-D: assignment in condition
+compiling alloc.c...
+..\..\..\src\common\alloc.c(11): warning:  #161-D: unrecognized #pragma
+compiling assert.c...
+compiling io.c...
+compiling memtest.c...
+compiling printf.c...
+compiling queue.c...
+compiling stdlib.c...
+compiling nmi_isr_handler.c...
+..\..\..\src\cpu\nmi_isr_handler.h(8): warning:  #1-D: last line of file ends without a newline
+compiling start.c...
+compiling sysinit.c...
+compiling system_MKL25Z4.c...
+compiling cmp.c...
+compiling llwu.c...
+compiling lptmr.c...
+compiling mcg.c...
+compiling pmc.c...
+compiling rcm.c...
+compiling rtc.c...
+compiling smc.c...
+compiling uart.c...
+linking...
+platinum_Flash.sct(7): error: L6236E: No section matches selector - no section to be FIRST/LAST.
+"platinum_Flash.axf" - 1 Error(s), 4 Warning(s).

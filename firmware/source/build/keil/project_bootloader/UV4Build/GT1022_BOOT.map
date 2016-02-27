@@ -1,0 +1,737 @@
+ARM Linker, 5.03 [Build 76] [MDK-ARM Standard]
+
+==============================================================================
+
+Section Cross References
+
+    flashprog.o(.text) refers to flash_ftfa.o(.text) for Flash_SectorErase
+    project_bootloader.o(.text) refers to usbhw.o(.text) for USB_Connect
+    project_bootloader.o(.text) refers to sysinit.o(.text) for sysinit
+    project_bootloader.o(.text) refers to sst25.o(.text) for SST25_Init
+    project_bootloader.o(.text) refers to ringbuf.o(.text) for RINGBUF_Init
+    project_bootloader.o(.text) refers to flash_ftfa.o(.text) for Flash_Init
+    project_bootloader.o(.text) refers to cdcuser.o(.text) for VCOM_CheckSerialState
+    project_bootloader.o(.text) refers to flashprog.o(.text) for myFMC_Erase
+    project_bootloader.o(.text) refers to project_bootloader.o(.data) for usbRecv
+    project_bootloader.o(.text) refers to project_bootloader.o(.bss) for buff
+    project_bootloader.o(.text) refers to cdcuser.o(.bss) for VCOM_TxBuff
+    project_bootloader.o(.text) refers to usbcore.o(.data) for USB_Configuration
+    project_bootloader.o(.text) refers to cdcuser.o(.data) for CDC_DepInEmpty
+    system_mkl25z4.o(.text) refers to uidiv.o(.text) for __aeabi_uidivmod
+    system_mkl25z4.o(.text) refers to system_mkl25z4.o(i.__ARM_common_switch8) for __ARM_common_switch8
+    system_mkl25z4.o(.text) refers to system_mkl25z4.o(.data) for SystemCoreClock
+    sysinit.o(.text) refers to uidiv.o(.text) for __aeabi_uidivmod
+    sysinit.o(.text) refers to idiv.o(.text) for __aeabi_idivmod
+    sysinit.o(.text) refers to system_mkl25z4.o(.data) for SystemCoreClock
+    sysinit.o(.text) refers to sysinit.o(.data) for mcg_clk_hz
+    startup_mkl25z4.o(RESET) refers to startup_mkl25z4.o(.text) for Reset_Handler
+    startup_mkl25z4.o(RESET) refers to project_bootloader.o(.text) for HardFault_Handler
+    startup_mkl25z4.o(RESET) refers to usbhw.o(.text) for USB0_IRQHandler
+    startup_mkl25z4.o(.text) refers to system_mkl25z4.o(.text) for SystemInit
+    startup_mkl25z4.o(.text) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    flash_ftfa.o(.text) refers to flash_ramfunc.o(.text) for SpSub
+    hiduser.o(.text) refers to project_bootloader.o(.text) for GetInReport
+    hiduser.o(.text) refers to usbcore.o(.data) for SetupPacket
+    hiduser.o(.text) refers to hiduser.o(.data) for HID_IdleTime
+    hiduser.o(.text) refers to usbcore.o(.bss) for EP0Buf
+    usbcore.o(.text) refers to usbhw.o(.text) for USB_ReadEP
+    usbcore.o(.text) refers to system_mkl25z4.o(i.__ARM_common_switch8) for __ARM_common_switch8
+    usbcore.o(.text) refers to usbcore.o(i.USB_ReqGetStatus) for USB_ReqGetStatus
+    usbcore.o(.text) refers to usbcore.o(i.USB_ReqSetClrFeature) for USB_ReqSetClrFeature
+    usbcore.o(.text) refers to usbcore.o(i.USB_ReqGetDescriptor) for USB_ReqGetDescriptor
+    usbcore.o(.text) refers to usbcore.o(i.USB_ReqSetConfiguration) for USB_ReqSetConfiguration
+    usbcore.o(.text) refers to usbuser.o(.text) for USB_Configure_Event
+    usbcore.o(.text) refers to usbcore.o(i.USB_ReqSetInterface) for USB_ReqSetInterface
+    usbcore.o(.text) refers to hiduser.o(.text) for HID_GetReport
+    usbcore.o(.text) refers to mscuser.o(.text) for MSC_Reset
+    usbcore.o(.text) refers to cdcuser.o(.text) for CDC_GetEncapsulatedResponse
+    usbcore.o(.text) refers to usbcore.o(.data) for USB_DeviceStatus
+    usbcore.o(.text) refers to usbcore.o(.bss) for EP0Buf
+    usbhw.o(.text) refers to usbhw.o(.data) for OutEpSize
+    usbhw.o(.text) refers to usbhw.o(.bss) for BD
+    usbhw.o(.text) refers to usbcore.o(.data) for USB_DeviceStatus
+    usbhw.o(.text) refers to usbuser.o(.text) for USB_Reset_Event
+    usbhw.o(.text) refers to usbuser.o(.constdata) for USB_P_EP
+    usbuser.o(.text) refers to usbcore.o(.text) for USB_ResetCore
+    usbuser.o(.text) refers to project_bootloader.o(.text) for GetInReport
+    usbuser.o(.text) refers to mscuser.o(.text) for MSC_BulkOut
+    usbuser.o(.text) refers to cdcuser.o(.text) for CDC_GetSerialState
+    usbuser.o(.text) refers to usbcore.o(.data) for USB_Configuration
+    usbuser.o(.text) refers to usbuser.o(.data) for serialState
+    usbuser.o(.constdata) refers to usbcore.o(.text) for USB_EndPoint0
+    usbuser.o(.constdata) refers to usbuser.o(.text) for USB_EndPoint1
+    mscuser.o(.text) refers to sst25.o(.text) for SST25_Read
+    mscuser.o(.text) refers to usbhw.o(.text) for USB_WriteEP
+    mscuser.o(.text) refers to uread4.o(.text) for __aeabi_uread4
+    mscuser.o(.text) refers to uwrite4.o(.text) for __aeabi_uwrite4
+    mscuser.o(.text) refers to mscuser.o(.data) for BulkStage
+    mscuser.o(.text) refers to usbcore.o(.bss) for EP0Buf
+    mscuser.o(.text) refers to mscuser.o(.bss) for buff_data
+    cdcuser.o(.text) refers to uwrite4.o(.text) for __aeabi_uwrite4
+    cdcuser.o(.text) refers to uread4.o(.text) for __aeabi_uread4
+    cdcuser.o(.text) refers to ringbuf.o(.text) for RINGBUF_Get
+    cdcuser.o(.text) refers to usbhw.o(.text) for USB_WriteEP
+    cdcuser.o(.text) refers to cdcuser.o(.bss) for CDC_OutBuf
+    cdcuser.o(.text) refers to cdcuser.o(.data) for CDC_SerialState
+    cdcuser.o(.text) refers to usbcore.o(.bss) for EP0Buf
+    sst25.o(.text) refers to spi.o(.text) for SPI_Init
+    sst25.o(.text) refers to sst25.o(.data) for countErrTemp
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry10a.o(.ARM.Collect$$$$0000000D) for __rt_final_cpp
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry11a.o(.ARM.Collect$$$$0000000F) for __rt_final_exit
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry7b.o(.ARM.Collect$$$$00000008) for _main_clock
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry8b.o(.ARM.Collect$$$$0000000A) for _main_cpp_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry9a.o(.ARM.Collect$$$$0000000B) for _main_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry5.o(.ARM.Collect$$$$00000004) for _main_scatterload
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry2.o(.ARM.Collect$$$$00000001) for _main_stk
+    idiv.o(.text) refers to uidiv.o(.text) for __aeabi_uidivmod
+    entry2.o(.ARM.Collect$$$$00000001) refers to entry2.o(.ARM.Collect$$$$00002712) for __lit__00000000
+    entry2.o(__vectab_stack_and_reset_area) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    entry5.o(.ARM.Collect$$$$00000004) refers to init.o(.text) for __scatterload
+    entry9a.o(.ARM.Collect$$$$0000000B) refers to project_bootloader.o(.text) for main
+    entry9b.o(.ARM.Collect$$$$0000000C) refers to project_bootloader.o(.text) for main
+    init.o(.text) refers to entry5.o(.ARM.Collect$$$$00000004) for __main_after_scatterload
+    usbcore.o(i.USB_ReqGetStatus) refers to usbcore.o(.data) for SetupPacket
+    usbcore.o(i.USB_ReqGetStatus) refers to usbcore.o(.bss) for EP0Buf
+    usbcore.o(i.USB_ReqSetClrFeature) refers to usbhw.o(.text) for USB_WakeUpCfg
+    usbcore.o(i.USB_ReqSetClrFeature) refers to uread4.o(.text) for __aeabi_uread4
+    usbcore.o(i.USB_ReqSetClrFeature) refers to usbcore.o(.data) for SetupPacket
+    usbcore.o(i.USB_ReqSetClrFeature) refers to mscuser.o(.bss) for CSW
+    usbcore.o(i.USB_ReqGetDescriptor) refers to usbcore.o(.data) for SetupPacket
+    usbcore.o(i.USB_ReqGetDescriptor) refers to usbdesc.o(.constdata) for USB_DeviceDescriptor
+    usbcore.o(i.USB_ReqSetConfiguration) refers to usbhw.o(.text) for USB_DisableEP
+    usbcore.o(i.USB_ReqSetConfiguration) refers to usbcore.o(.data) for SetupPacket
+    usbcore.o(i.USB_ReqSetConfiguration) refers to usbdesc.o(.constdata) for USB_ConfigDescriptor
+    usbcore.o(i.USB_ReqSetInterface) refers to usbhw.o(.text) for USB_ConfigEP
+    usbcore.o(i.USB_ReqSetInterface) refers to usbcore.o(.data) for SetupPacket
+    usbcore.o(i.USB_ReqSetInterface) refers to usbdesc.o(.constdata) for USB_ConfigDescriptor
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing flashprog.o(.rev16_text), (4 bytes).
+    Removing flashprog.o(.revsh_text), (4 bytes).
+    Removing project_bootloader.o(.rev16_text), (4 bytes).
+    Removing project_bootloader.o(.revsh_text), (4 bytes).
+    Removing system_mkl25z4.o(.rev16_text), (4 bytes).
+    Removing system_mkl25z4.o(.revsh_text), (4 bytes).
+    Removing sysinit.o(.rev16_text), (4 bytes).
+    Removing sysinit.o(.revsh_text), (4 bytes).
+    Removing startup_mkl25z4.o(STACK), (2048 bytes).
+    Removing startup_mkl25z4.o(HEAP), (0 bytes).
+    Removing spi.o(.rev16_text), (4 bytes).
+    Removing spi.o(.revsh_text), (4 bytes).
+    Removing fmc.o(.rev16_text), (4 bytes).
+    Removing fmc.o(.revsh_text), (4 bytes).
+    Removing fmc.o(.text), (272 bytes).
+    Removing flash_ftfa.o(.rev16_text), (4 bytes).
+    Removing flash_ftfa.o(.revsh_text), (4 bytes).
+    Removing flash_ramfunc.o(.rev16_text), (4 bytes).
+    Removing flash_ramfunc.o(.revsh_text), (4 bytes).
+    Removing hiduser.o(.rev16_text), (4 bytes).
+    Removing hiduser.o(.revsh_text), (4 bytes).
+    Removing hiduser.o(.bss), (352 bytes).
+    Removing usbcore.o(.rev16_text), (4 bytes).
+    Removing usbcore.o(.revsh_text), (4 bytes).
+    Removing usbhw.o(.rev16_text), (4 bytes).
+    Removing usbhw.o(.revsh_text), (4 bytes).
+    Removing usbuser.o(.rev16_text), (4 bytes).
+    Removing usbuser.o(.revsh_text), (4 bytes).
+    Removing mscuser.o(.rev16_text), (4 bytes).
+    Removing mscuser.o(.revsh_text), (4 bytes).
+    Removing cdcuser.o(.rev16_text), (4 bytes).
+    Removing cdcuser.o(.revsh_text), (4 bytes).
+    Removing sst25.o(.rev16_text), (4 bytes).
+    Removing sst25.o(.revsh_text), (4 bytes).
+
+34 unused section(s) (total 2792 bytes) removed from the image.
+
+==============================================================================
+
+Adding Veneers to the image
+
+    Adding TT veneer (12 bytes, Long) for call to 'SpSub' from flash_ftfa.o(.text).
+
+1 Veneer(s) (total 12 bytes) added to the image.
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    RESET                                    0x00000000   Section     1024  startup_mkl25z4.o(RESET)
+    ../clib/microlib/division.c              0x00000000   Number         0  idiv.o ABSOLUTE
+    ../clib/microlib/division.c              0x00000000   Number         0  uidiv.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry5.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
+    ../clib/microlib/unhosted.c              0x00000000   Number         0  uread4.o ABSOLUTE
+    ../clib/microlib/unhosted.c              0x00000000   Number         0  uwrite4.o ABSOLUTE
+    ..\..\..\src\Libraries\common_lib\flash_mem\sst25.c 0x00000000   Number         0  sst25.o ABSOLUTE
+    ..\..\..\src\Libraries\common_lib\ringbuff\ringbuf.c 0x00000000   Number         0  ringbuf.o ABSOLUTE
+    ..\..\..\src\cpu\system_MKL25Z4.c        0x00000000   Number         0  system_mkl25z4.o ABSOLUTE
+    ..\..\..\src\drivers\FTFA\flash_FTFA.c   0x00000000   Number         0  flash_ftfa.o ABSOLUTE
+    ..\..\..\src\drivers\FTFA\flash_ramFunc.c 0x00000000   Number         0  flash_ramfunc.o ABSOLUTE
+    ..\..\..\src\drivers\flash\fmc.c         0x00000000   Number         0  fmc.o ABSOLUTE
+    ..\..\..\src\drivers\spi\spi.c           0x00000000   Number         0  spi.o ABSOLUTE
+    ..\..\..\src\drivers\usb\hiduser.c       0x00000000   Number         0  hiduser.o ABSOLUTE
+    ..\..\..\src\drivers\usb\usbcore.c       0x00000000   Number         0  usbcore.o ABSOLUTE
+    ..\..\..\src\drivers\usb\usbhw.c         0x00000000   Number         0  usbhw.o ABSOLUTE
+    ..\..\..\src\projects\project_bootloader\FlashProg.c 0x00000000   Number         0  flashprog.o ABSOLUTE
+    ..\..\..\src\projects\project_bootloader\cdcuser.c 0x00000000   Number         0  cdcuser.o ABSOLUTE
+    ..\..\..\src\projects\project_bootloader\mscuser.c 0x00000000   Number         0  mscuser.o ABSOLUTE
+    ..\..\..\src\projects\project_bootloader\project_bootloader.c 0x00000000   Number         0  project_bootloader.o ABSOLUTE
+    ..\..\..\src\projects\project_bootloader\startup_MKL25Z4.s 0x00000000   Number         0  startup_mkl25z4.o ABSOLUTE
+    ..\..\..\src\projects\project_bootloader\sysinit.c 0x00000000   Number         0  sysinit.o ABSOLUTE
+    ..\..\..\src\projects\project_bootloader\usbdesc.c 0x00000000   Number         0  usbdesc.o ABSOLUTE
+    ..\..\..\src\projects\project_bootloader\usbuser.c 0x00000000   Number         0  usbuser.o ABSOLUTE
+    ..\\..\\..\\src\\Libraries\\common_lib\\flash_mem\\sst25.c 0x00000000   Number         0  sst25.o ABSOLUTE
+    ..\\..\\..\\src\\cpu\\system_MKL25Z4.c   0x00000000   Number         0  system_mkl25z4.o ABSOLUTE
+    ..\\..\\..\\src\\drivers\\FTFA\\flash_FTFA.c 0x00000000   Number         0  flash_ftfa.o ABSOLUTE
+    ..\\..\\..\\src\\drivers\\FTFA\\flash_ramFunc.c 0x00000000   Number         0  flash_ramfunc.o ABSOLUTE
+    ..\\..\\..\\src\\drivers\\flash\\fmc.c   0x00000000   Number         0  fmc.o ABSOLUTE
+    ..\\..\\..\\src\\drivers\\spi\\spi.c     0x00000000   Number         0  spi.o ABSOLUTE
+    ..\\..\\..\\src\\drivers\\usb\\hiduser.c 0x00000000   Number         0  hiduser.o ABSOLUTE
+    ..\\..\\..\\src\\drivers\\usb\\usbcore.c 0x00000000   Number         0  usbcore.o ABSOLUTE
+    ..\\..\\..\\src\\drivers\\usb\\usbhw.c   0x00000000   Number         0  usbhw.o ABSOLUTE
+    ..\\..\\..\\src\\projects\\project_bootloader\\FlashProg.c 0x00000000   Number         0  flashprog.o ABSOLUTE
+    ..\\..\\..\\src\\projects\\project_bootloader\\cdcuser.c 0x00000000   Number         0  cdcuser.o ABSOLUTE
+    ..\\..\\..\\src\\projects\\project_bootloader\\mscuser.c 0x00000000   Number         0  mscuser.o ABSOLUTE
+    ..\\..\\..\\src\\projects\\project_bootloader\\project_bootloader.c 0x00000000   Number         0  project_bootloader.o ABSOLUTE
+    ..\\..\\..\\src\\projects\\project_bootloader\\sysinit.c 0x00000000   Number         0  sysinit.o ABSOLUTE
+    ..\\..\\..\\src\\projects\\project_bootloader\\usbuser.c 0x00000000   Number         0  usbuser.o ABSOLUTE
+    dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
+    handlers.s                               0x00000000   Number         0  handlers.o ABSOLUTE
+    init.s                                   0x00000000   Number         0  init.o ABSOLUTE
+    .ARM.__at_0x400                          0x00000400   Section       16  startup_mkl25z4.o(.ARM.__at_0x400)
+    .ARM.Collect$$$$00000000                 0x00000410   Section        0  entry.o(.ARM.Collect$$$$00000000)
+    .ARM.Collect$$$$00000001                 0x00000410   Section        4  entry2.o(.ARM.Collect$$$$00000001)
+    .ARM.Collect$$$$00000004                 0x00000414   Section        4  entry5.o(.ARM.Collect$$$$00000004)
+    .ARM.Collect$$$$00000008                 0x00000418   Section        0  entry7b.o(.ARM.Collect$$$$00000008)
+    .ARM.Collect$$$$0000000A                 0x00000418   Section        0  entry8b.o(.ARM.Collect$$$$0000000A)
+    .ARM.Collect$$$$0000000B                 0x00000418   Section        8  entry9a.o(.ARM.Collect$$$$0000000B)
+    .ARM.Collect$$$$0000000D                 0x00000420   Section        0  entry10a.o(.ARM.Collect$$$$0000000D)
+    .ARM.Collect$$$$0000000F                 0x00000420   Section        0  entry11a.o(.ARM.Collect$$$$0000000F)
+    .ARM.Collect$$$$00002712                 0x00000420   Section        4  entry2.o(.ARM.Collect$$$$00002712)
+    __lit__00000000                          0x00000420   Data           4  entry2.o(.ARM.Collect$$$$00002712)
+    .text                                    0x00000424   Section        0  flashprog.o(.text)
+    NVIC_SystemReset                         0x00000477   Thumb Code    18  flashprog.o(.text)
+    .text                                    0x00000490   Section        0  project_bootloader.o(.text)
+    NVIC_SetPriority                         0x0000094b   Thumb Code   110  project_bootloader.o(.text)
+    NVIC_SystemReset                         0x000009b9   Thumb Code    20  project_bootloader.o(.text)
+    .text                                    0x000009e4   Section        0  system_mkl25z4.o(.text)
+    .text                                    0x00000bf8   Section        0  sysinit.o(.text)
+    .text                                    0x00000d0c   Section       28  startup_mkl25z4.o(.text)
+    .text                                    0x00000d28   Section        0  spi.o(.text)
+    .text                                    0x00000e20   Section        0  ringbuf.o(.text)
+    .text                                    0x00000eb8   Section        0  flash_ftfa.o(.text)
+    .text                                    0x00001058   Section        0  hiduser.o(.text)
+    .text                                    0x000010f0   Section        0  usbcore.o(.text)
+    .text                                    0x00001650   Section        0  usbhw.o(.text)
+    NVIC_SetPriority                         0x00001c45   Thumb Code   110  usbhw.o(.text)
+    .text                                    0x00001cd0   Section        0  usbuser.o(.text)
+    .text                                    0x00001d98   Section        0  mscuser.o(.text)
+    .text                                    0x0000274c   Section        0  cdcuser.o(.text)
+    .text                                    0x00002a84   Section        0  sst25.o(.text)
+    SST25__Status                            0x00002a8f   Thumb Code    44  sst25.o(.text)
+    SST25__WriteEnable                       0x00002abb   Thumb Code    88  sst25.o(.text)
+    SST25__GlobalProtect                     0x00002cd3   Thumb Code   106  sst25.o(.text)
+    .text                                    0x00002d48   Section        0  uidiv.o(.text)
+    .text                                    0x00002d74   Section        0  idiv.o(.text)
+    .text                                    0x00002d9c   Section        0  uread4.o(.text)
+    .text                                    0x00002db0   Section        0  uwrite4.o(.text)
+    .text                                    0x00002dc4   Section       36  init.o(.text)
+    i.USB_ReqGetDescriptor                   0x00002df4   Section        0  usbcore.o(i.USB_ReqGetDescriptor)
+    i.USB_ReqGetStatus                       0x00002f0c   Section        0  usbcore.o(i.USB_ReqGetStatus)
+    i.USB_ReqSetClrFeature                   0x00002fd0   Section        0  usbcore.o(i.USB_ReqSetClrFeature)
+    i.USB_ReqSetConfiguration                0x000030ec   Section        0  usbcore.o(i.USB_ReqSetConfiguration)
+    i.USB_ReqSetInterface                    0x000032a8   Section        0  usbcore.o(i.USB_ReqSetInterface)
+    i.__ARM_common_switch8                   0x000033e8   Section        0  system_mkl25z4.o(i.__ARM_common_switch8)
+    i.__scatterload_copy                     0x00003404   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_null                     0x00003412   Section        2  handlers.o(i.__scatterload_null)
+    i.__scatterload_zeroinit                 0x00003414   Section       14  handlers.o(i.__scatterload_zeroinit)
+    .constdata                               0x00003422   Section      283  usbdesc.o(.constdata)
+    .constdata                               0x00003540   Section       24  usbuser.o(.constdata)
+    .data                                    0x1ffff000   Section       11  usbhw.o(.data)
+    .data                                    0x1ffff00c   Section        2  usbuser.o(.data)
+    serialState                              0x1ffff00c   Data           2  usbuser.o(.data)
+    .bss                                     0x1ffff200   Section     2016  usbhw.o(.bss)
+    .text                                    0x20000000   Section        0  flash_ramfunc.o(.text)
+    .data                                    0x20000020   Section       32  project_bootloader.o(.data)
+    .data                                    0x20000040   Section        4  system_mkl25z4.o(.data)
+    .data                                    0x20000044   Section       24  sysinit.o(.data)
+    .data                                    0x2000005c   Section        3  hiduser.o(.data)
+    .data                                    0x20000060   Section       40  usbcore.o(.data)
+    .data                                    0x20000088   Section       50  mscuser.o(.data)
+    .data                                    0x200000ba   Section       14  cdcuser.o(.data)
+    serialState                              0x200000c6   Data           2  cdcuser.o(.data)
+    .data                                    0x200000c8   Section        4  sst25.o(.data)
+    .bss                                     0x200000cc   Section     5248  project_bootloader.o(.bss)
+    .bss                                     0x2000154c   Section       64  usbcore.o(.bss)
+    .bss                                     0x2000158c   Section     4332  mscuser.o(.bss)
+    .bss                                     0x20002678   Section      372  cdcuser.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv3M$S$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$EBA8$MICROLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    __ARM_use_no_argv                        0x00000000   Number         0  project_bootloader.o ABSOLUTE
+    __Vectors                                0x00000000   Data           4  startup_mkl25z4.o(RESET)
+    __cpp_initialize__aeabi_                  - Undefined Weak Reference
+    __cxa_finalize                            - Undefined Weak Reference
+    __decompress                              - Undefined Weak Reference
+    _clock_init                               - Undefined Weak Reference
+    _microlib_exit                            - Undefined Weak Reference
+    __Vectors_End                            0x00000400   Data           0  startup_mkl25z4.o(RESET)
+    __Vectors_Size                           0x00000400   Number         0  startup_mkl25z4.o ABSOLUTE
+    __main                                   0x00000411   Thumb Code     0  entry.o(.ARM.Collect$$$$00000000)
+    _main_stk                                0x00000411   Thumb Code     0  entry2.o(.ARM.Collect$$$$00000001)
+    _main_scatterload                        0x00000415   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    __main_after_scatterload                 0x00000419   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    _main_clock                              0x00000419   Thumb Code     0  entry7b.o(.ARM.Collect$$$$00000008)
+    _main_cpp_init                           0x00000419   Thumb Code     0  entry8b.o(.ARM.Collect$$$$0000000A)
+    _main_init                               0x00000419   Thumb Code     0  entry9a.o(.ARM.Collect$$$$0000000B)
+    __rt_final_cpp                           0x00000421   Thumb Code     0  entry10a.o(.ARM.Collect$$$$0000000D)
+    __rt_final_exit                          0x00000421   Thumb Code     0  entry11a.o(.ARM.Collect$$$$0000000F)
+    myFMC_Erase                              0x00000425   Thumb Code    24  flashprog.o(.text)
+    FMC_ProgramPage                          0x0000043d   Thumb Code    58  flashprog.o(.text)
+    HardFault_Handler                        0x00000491   Thumb Code     4  project_bootloader.o(.text)
+    SetOutReport                             0x00000495   Thumb Code     8  project_bootloader.o(.text)
+    GetInReport                              0x0000049d   Thumb Code     2  project_bootloader.o(.text)
+    CfgCalcCheckSum                          0x0000049f   Thumb Code    26  project_bootloader.o(.text)
+    execute_user_code                        0x000004b9   Thumb Code    72  project_bootloader.o(.text)
+    load_boot_code                           0x00000501   Thumb Code    40  project_bootloader.o(.text)
+    LPTMR_init                               0x00000529   Thumb Code    72  project_bootloader.o(.text)
+    LPTimerTask                              0x00000571   Thumb Code    86  project_bootloader.o(.text)
+    LPTimer_IRQHandler                       0x000005c7   Thumb Code     8  project_bootloader.o(.text)
+    SysInit                                  0x000005cf   Thumb Code    34  project_bootloader.o(.text)
+    Delay                                    0x000005f1   Thumb Code    12  project_bootloader.o(.text)
+    main                                     0x000005fd   Thumb Code   846  project_bootloader.o(.text)
+    SystemInit                               0x000009e5   Thumb Code   170  system_mkl25z4.o(.text)
+    SystemCoreClockUpdate                    0x00000a8f   Thumb Code   310  system_mkl25z4.o(.text)
+    clk_out_init                             0x00000bf9   Thumb Code    22  sysinit.o(.text)
+    sysinit                                  0x00000c0f   Thumb Code   168  sysinit.o(.text)
+    enable_abort_button                      0x00000cb7   Thumb Code    36  sysinit.o(.text)
+    Reset_Handler                            0x00000d0d   Thumb Code     8  startup_mkl25z4.o(.text)
+    NMI_Handler                              0x00000d15   Thumb Code     2  startup_mkl25z4.o(.text)
+    SVC_Handler                              0x00000d19   Thumb Code     2  startup_mkl25z4.o(.text)
+    PendSV_Handler                           0x00000d1b   Thumb Code     2  startup_mkl25z4.o(.text)
+    SysTick_Handler                          0x00000d1d   Thumb Code     2  startup_mkl25z4.o(.text)
+    ADC0_IRQHandler                          0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    CMP0_IRQHandler                          0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    DAC0_IRQHandler                          0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    DMA0_IRQHandler                          0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    DMA1_IRQHandler                          0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    DMA2_IRQHandler                          0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    DMA3_IRQHandler                          0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    DefaultISR                               0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    FTFA_IRQHandler                          0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    I2C0_IRQHandler                          0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    I2C1_IRQHandler                          0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    LLW_IRQHandler                           0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    LVD_LVW_IRQHandler                       0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    MCG_IRQHandler                           0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    PIT_IRQHandler                           0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    PORTA_IRQHandler                         0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    PORTD_IRQHandler                         0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    RTC_IRQHandler                           0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    RTC_Seconds_IRQHandler                   0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    Reserved20_IRQHandler                    0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    Reserved39_IRQHandler                    0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    Reserved45_IRQHandler                    0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    SPI0_IRQHandler                          0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    SPI1_IRQHandler                          0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    TPM0_IRQHandler                          0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    TPM1_IRQHandler                          0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    TPM2_IRQHandler                          0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    TSI0_IRQHandler                          0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    UART0_IRQHandler                         0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    UART1_IRQHandler                         0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    UART2_IRQHandler                         0x00000d1f   Thumb Code     0  startup_mkl25z4.o(.text)
+    SPI_Init                                 0x00000d29   Thumb Code   146  spi.o(.text)
+    halSpiWriteByte                          0x00000dbb   Thumb Code    66  spi.o(.text)
+    RINGBUF_Init                             0x00000e21   Thumb Code    34  ringbuf.o(.text)
+    RINGBUF_Put                              0x00000e43   Thumb Code    42  ringbuf.o(.text)
+    RINGBUF_Get                              0x00000e6d   Thumb Code    46  ringbuf.o(.text)
+    RINGBUF_GetFill                          0x00000e9b   Thumb Code    30  ringbuf.o(.text)
+    Flash_Init                               0x00000eb9   Thumb Code    78  flash_ftfa.o(.text)
+    Flash_SectorErase                        0x00000f07   Thumb Code   138  flash_ftfa.o(.text)
+    Flash_ByteProgram                        0x00000f91   Thumb Code   190  flash_ftfa.o(.text)
+    HID_GetReport                            0x00001059   Thumb Code    40  hiduser.o(.text)
+    HID_SetReport                            0x00001081   Thumb Code    40  hiduser.o(.text)
+    HID_GetIdle                              0x000010a9   Thumb Code    16  hiduser.o(.text)
+    HID_SetIdle                              0x000010b9   Thumb Code    16  hiduser.o(.text)
+    HID_GetProtocol                          0x000010c9   Thumb Code    12  hiduser.o(.text)
+    HID_SetProtocol                          0x000010d5   Thumb Code    12  hiduser.o(.text)
+    USB_ResetCore                            0x000010f1   Thumb Code    32  usbcore.o(.text)
+    USB_SetupStage                           0x00001111   Thumb Code    12  usbcore.o(.text)
+    USB_DataInStage                          0x0000111d   Thumb Code    52  usbcore.o(.text)
+    USB_DataOutStage                         0x00001151   Thumb Code    34  usbcore.o(.text)
+    USB_StatusInStage                        0x00001173   Thumb Code    14  usbcore.o(.text)
+    USB_StatusOutStage                       0x00001181   Thumb Code    12  usbcore.o(.text)
+    USB_EndPoint0                            0x0000118d   Thumb Code  1206  usbcore.o(.text)
+    USB_IntrEna                              0x00001651   Thumb Code    24  usbhw.o(.text)
+    USB_Init                                 0x00001669   Thumb Code   168  usbhw.o(.text)
+    USB_Connect                              0x00001711   Thumb Code    58  usbhw.o(.text)
+    USB_Reset                                0x0000174b   Thumb Code    94  usbhw.o(.text)
+    USB_Suspend                              0x000017a9   Thumb Code    18  usbhw.o(.text)
+    USB_Resume                               0x000017bb   Thumb Code    18  usbhw.o(.text)
+    USB_WakeUp                               0x000017cd   Thumb Code    58  usbhw.o(.text)
+    USB_WakeUpCfg                            0x00001807   Thumb Code     2  usbhw.o(.text)
+    USB_SetAddress                           0x00001809   Thumb Code    12  usbhw.o(.text)
+    USB_Configure                            0x00001815   Thumb Code     2  usbhw.o(.text)
+    USB_ResetEP                              0x00001817   Thumb Code   140  usbhw.o(.text)
+    USB_ConfigEP                             0x000018a3   Thumb Code    36  usbhw.o(.text)
+    USB_DirCtrlEP                            0x000018c7   Thumb Code     2  usbhw.o(.text)
+    USB_EnableEP                             0x000018c9   Thumb Code    54  usbhw.o(.text)
+    USB_DisableEP                            0x000018ff   Thumb Code    54  usbhw.o(.text)
+    USB_SetStallEP                           0x00001935   Thumb Code    26  usbhw.o(.text)
+    USB_ClrStallEP                           0x0000194f   Thumb Code    36  usbhw.o(.text)
+    USB_ClearEPBuf                           0x00001973   Thumb Code     2  usbhw.o(.text)
+    USB_ReadEP                               0x00001975   Thumb Code   260  usbhw.o(.text)
+    USB_WriteEP                              0x00001a79   Thumb Code    94  usbhw.o(.text)
+    USB_GetFrame                             0x00001ad7   Thumb Code    16  usbhw.o(.text)
+    USB0_IRQHandler                          0x00001ae7   Thumb Code   350  usbhw.o(.text)
+    USB_Reset_Event                          0x00001cd1   Thumb Code     8  usbuser.o(.text)
+    USB_Suspend_Event                        0x00001cd9   Thumb Code     8  usbuser.o(.text)
+    USB_Resume_Event                         0x00001ce1   Thumb Code     2  usbuser.o(.text)
+    USB_Configure_Event                      0x00001ce3   Thumb Code    16  usbuser.o(.text)
+    USB_EndPoint3                            0x00001cf3   Thumb Code    30  usbuser.o(.text)
+    USB_EndPoint2                            0x00001d11   Thumb Code    30  usbuser.o(.text)
+    USB_EndPoint1                            0x00001d2f   Thumb Code    36  usbuser.o(.text)
+    USB_EndPoint4                            0x00001d53   Thumb Code    30  usbuser.o(.text)
+    USB_EndPoint5                            0x00001d71   Thumb Code    30  usbuser.o(.text)
+    MSC_Reset                                0x00001d99   Thumb Code    10  mscuser.o(.text)
+    MSC_GetMaxLUN                            0x00001da3   Thumb Code    10  mscuser.o(.text)
+    MSC_MemoryRead                           0x00001dad   Thumb Code   184  mscuser.o(.text)
+    MSC_SetCSW                               0x00001e65   Thumb Code    32  mscuser.o(.text)
+    MSC_MemoryWrite                          0x00001e85   Thumb Code   580  mscuser.o(.text)
+    MSC_MemoryVerify                         0x000020c9   Thumb Code   160  mscuser.o(.text)
+    MSC_RWSetup                              0x00002169   Thumb Code   192  mscuser.o(.text)
+    DataInFormat                             0x00002229   Thumb Code    62  mscuser.o(.text)
+    DataInTransfer                           0x00002267   Thumb Code    76  mscuser.o(.text)
+    MSC_TestUnitReady                        0x000022b3   Thumb Code    50  mscuser.o(.text)
+    MSC_RequestSense                         0x000022e5   Thumb Code    80  mscuser.o(.text)
+    MSC_Inquiry                              0x00002335   Thumb Code   164  mscuser.o(.text)
+    MSC_ModeSense6                           0x000023d9   Thumb Code    40  mscuser.o(.text)
+    MSC_ModeSense10                          0x00002401   Thumb Code    50  mscuser.o(.text)
+    MSC_ReadCapacity                         0x00002433   Thumb Code    56  mscuser.o(.text)
+    MSC_ReadFormatCapacity                   0x0000246b   Thumb Code    94  mscuser.o(.text)
+    MSC_GetCBW                               0x000024c9   Thumb Code   462  mscuser.o(.text)
+    MSC_BulkIn                               0x00002697   Thumb Code    72  mscuser.o(.text)
+    MSC_BulkOut                              0x000026df   Thumb Code    86  mscuser.o(.text)
+    CDC_RdOutBuf                             0x0000274d   Thumb Code    58  cdcuser.o(.text)
+    CDC_WrOutBuf                             0x00002787   Thumb Code    44  cdcuser.o(.text)
+    CDC_OutBufAvailChar                      0x000027b3   Thumb Code    22  cdcuser.o(.text)
+    CDC_GetSerialState                       0x000027c9   Thumb Code   146  cdcuser.o(.text)
+    CDC_Init                                 0x0000285b   Thumb Code    28  cdcuser.o(.text)
+    CDC_SendEncapsulatedCommand              0x00002877   Thumb Code     4  cdcuser.o(.text)
+    CDC_GetEncapsulatedResponse              0x0000287b   Thumb Code     4  cdcuser.o(.text)
+    CDC_SetCommFeature                       0x0000287f   Thumb Code     6  cdcuser.o(.text)
+    CDC_GetCommFeature                       0x00002885   Thumb Code     6  cdcuser.o(.text)
+    CDC_ClearCommFeature                     0x0000288b   Thumb Code     6  cdcuser.o(.text)
+    CDC_SetLineCoding                        0x00002891   Thumb Code   116  cdcuser.o(.text)
+    CDC_GetLineCoding                        0x00002905   Thumb Code    74  cdcuser.o(.text)
+    CDC_SetControlLineState                  0x0000294f   Thumb Code     6  cdcuser.o(.text)
+    CDC_SendBreak                            0x00002955   Thumb Code     6  cdcuser.o(.text)
+    CDC_BulkIn                               0x0000295b   Thumb Code    60  cdcuser.o(.text)
+    CDC_BulkOut                              0x00002997   Thumb Code    34  cdcuser.o(.text)
+    CDC_NotificationIn                       0x000029b9   Thumb Code    54  cdcuser.o(.text)
+    VCOM_Serial2Usb                          0x000029ef   Thumb Code    30  cdcuser.o(.text)
+    VCOM_Usb2Serial                          0x00002a0d   Thumb Code    48  cdcuser.o(.text)
+    VCOM_CheckSerialState                    0x00002a3d   Thumb Code    26  cdcuser.o(.text)
+    SST25_Init                               0x00002a85   Thumb Code    10  sst25.o(.text)
+    SST25_Erase                              0x00002b13   Thumb Code   126  sst25.o(.text)
+    _SST25_Write                             0x00002b91   Thumb Code   128  sst25.o(.text)
+    SST25_Write                              0x00002c11   Thumb Code    82  sst25.o(.text)
+    SST25_Read                               0x00002c63   Thumb Code   112  sst25.o(.text)
+    __aeabi_uidiv                            0x00002d49   Thumb Code     0  uidiv.o(.text)
+    __aeabi_uidivmod                         0x00002d49   Thumb Code    44  uidiv.o(.text)
+    __aeabi_idiv                             0x00002d75   Thumb Code     0  idiv.o(.text)
+    __aeabi_idivmod                          0x00002d75   Thumb Code    40  idiv.o(.text)
+    __aeabi_uread4                           0x00002d9d   Thumb Code    20  uread4.o(.text)
+    __rt_uread4                              0x00002d9d   Thumb Code     0  uread4.o(.text)
+    _uread4                                  0x00002d9d   Thumb Code     0  uread4.o(.text)
+    __aeabi_uwrite4                          0x00002db1   Thumb Code    18  uwrite4.o(.text)
+    __rt_uwrite4                             0x00002db1   Thumb Code     0  uwrite4.o(.text)
+    _uwrite4                                 0x00002db1   Thumb Code     0  uwrite4.o(.text)
+    __scatterload                            0x00002dc5   Thumb Code    28  init.o(.text)
+    __scatterload_rt2                        0x00002dc5   Thumb Code     0  init.o(.text)
+    Long Thumb to Thumb Veneer to SpSub      0x00002de9   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    USB_ReqGetDescriptor                     0x00002df5   Thumb Code   252  usbcore.o(i.USB_ReqGetDescriptor)
+    USB_ReqGetStatus                         0x00002f0d   Thumb Code   164  usbcore.o(i.USB_ReqGetStatus)
+    USB_ReqSetClrFeature                     0x00002fd1   Thumb Code   250  usbcore.o(i.USB_ReqSetClrFeature)
+    USB_ReqSetConfiguration                  0x000030ed   Thumb Code   402  usbcore.o(i.USB_ReqSetConfiguration)
+    USB_ReqSetInterface                      0x000032a9   Thumb Code   296  usbcore.o(i.USB_ReqSetInterface)
+    __ARM_common_switch8                     0x000033e9   Thumb Code    28  system_mkl25z4.o(i.__ARM_common_switch8)
+    __scatterload_copy                       0x00003405   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_null                       0x00003413   Thumb Code     2  handlers.o(i.__scatterload_null)
+    __scatterload_zeroinit                   0x00003415   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    HID_ReportDescriptor                     0x00003422   Data          28  usbdesc.o(.constdata)
+    HID_ReportDescSize                       0x0000343e   Data           2  usbdesc.o(.constdata)
+    USB_DeviceDescriptor                     0x00003440   Data          18  usbdesc.o(.constdata)
+    USB_ConfigDescriptor                     0x00003452   Data         131  usbdesc.o(.constdata)
+    USB_StringDescriptor                     0x000034d5   Data         104  usbdesc.o(.constdata)
+    USB_P_EP                                 0x00003540   Data          24  usbuser.o(.constdata)
+    Region$$Table$$Base                      0x00003558   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x000035a8   Number         0  anon$$obj.o(Region$$Table)
+    Data1                                    0x1ffff000   Data           4  usbhw.o(.data)
+    OutEpSize                                0x1ffff004   Data           7  usbhw.o(.data)
+    BD                                       0x1ffff200   Data         224  usbhw.o(.bss)
+    EPBuf                                    0x1ffff2e0   Data        1792  usbhw.o(.bss)
+    SpSub                                    0x20000001   Thumb Code    26  flash_ramfunc.o(.text)
+    usbRecv                                  0x20000020   Data           1  project_bootloader.o(.data)
+    pwrCnt                                   0x20000024   Data           4  project_bootloader.o(.data)
+    fileSize                                 0x20000028   Data           4  project_bootloader.o(.data)
+    packetNo                                 0x2000002c   Data           4  project_bootloader.o(.data)
+    firmwareFileOffSet                       0x20000030   Data           4  project_bootloader.o(.data)
+    firmwareFileSize                         0x20000034   Data           4  project_bootloader.o(.data)
+    Jump_To_Application                      0x20000038   Data           4  project_bootloader.o(.data)
+    JumpAddress                              0x2000003c   Data           4  project_bootloader.o(.data)
+    SystemCoreClock                          0x20000040   Data           4  system_mkl25z4.o(.data)
+    mcg_clk_hz                               0x20000044   Data           4  sysinit.o(.data)
+    mcg_clk_khz                              0x20000048   Data           4  sysinit.o(.data)
+    core_clk_khz                             0x2000004c   Data           4  sysinit.o(.data)
+    periph_clk_khz                           0x20000050   Data           4  sysinit.o(.data)
+    pll_clk_khz                              0x20000054   Data           4  sysinit.o(.data)
+    uart0_clk_khz                            0x20000058   Data           4  sysinit.o(.data)
+    HID_DepInEmpty                           0x2000005c   Data           1  hiduser.o(.data)
+    HID_Protocol                             0x2000005d   Data           1  hiduser.o(.data)
+    HID_IdleTime                             0x2000005e   Data           1  hiduser.o(.data)
+    USB_DeviceStatus                         0x20000060   Data           2  usbcore.o(.data)
+    USB_DeviceAddress                        0x20000062   Data           1  usbcore.o(.data)
+    USB_Configuration                        0x20000063   Data           1  usbcore.o(.data)
+    USB_EndPointMask                         0x20000064   Data           4  usbcore.o(.data)
+    USB_EndPointHalt                         0x20000068   Data           4  usbcore.o(.data)
+    USB_EndPointStall                        0x2000006c   Data           4  usbcore.o(.data)
+    USB_NumInterfaces                        0x20000070   Data           1  usbcore.o(.data)
+    USB_AltSetting                           0x20000071   Data           6  usbcore.o(.data)
+    EP0Data                                  0x20000078   Data           8  usbcore.o(.data)
+    SetupPacket                              0x20000080   Data           8  usbcore.o(.data)
+    SST25_sectorOffset                       0x20000088   Data           4  mscuser.o(.data)
+    dataOffset                               0x2000008c   Data           4  mscuser.o(.data)
+    dataLoaded                               0x20000090   Data           4  mscuser.o(.data)
+    sectorWriten                             0x20000094   Data           4  mscuser.o(.data)
+    current_sector                           0x20000098   Data           4  mscuser.o(.data)
+    data_counter                             0x2000009c   Data           4  mscuser.o(.data)
+    writeNumCnt                              0x200000a0   Data           4  mscuser.o(.data)
+    asdf                                     0x200000a4   Data           4  mscuser.o(.data)
+    MemOK                                    0x200000a8   Data           4  mscuser.o(.data)
+    index_of_data_transfer                   0x200000ac   Data           4  mscuser.o(.data)
+    index_of_data_written                    0x200000b0   Data           4  mscuser.o(.data)
+    number_of_sector_transfer                0x200000b4   Data           4  mscuser.o(.data)
+    BulkStage                                0x200000b8   Data           1  mscuser.o(.data)
+    BulkLen                                  0x200000b9   Data           1  mscuser.o(.data)
+    CDC_LineCoding                           0x200000ba   Data           7  cdcuser.o(.data)
+    CDC_SerialState                          0x200000c2   Data           2  cdcuser.o(.data)
+    CDC_DepInEmpty                           0x200000c4   Data           2  cdcuser.o(.data)
+    countErrTemp                             0x200000c8   Data           4  sst25.o(.data)
+    USB_rxBuff                               0x200000cc   Data          64  project_bootloader.o(.bss)
+    buff                                     0x2000010c   Data        1024  project_bootloader.o(.bss)
+    flashBuff                                0x2000050c   Data        4096  project_bootloader.o(.bss)
+    USB_txBuff                               0x2000150c   Data          64  project_bootloader.o(.bss)
+    EP0Buf                                   0x2000154c   Data          64  usbcore.o(.bss)
+    buff_data1                               0x2000158c   Data        4096  mscuser.o(.bss)
+    buff_data                                0x2000258c   Data         128  mscuser.o(.bss)
+    BulkBuf                                  0x2000260c   Data          64  mscuser.o(.bss)
+    CBW                                      0x2000264c   Data          31  mscuser.o(.bss)
+    CSW                                      0x2000266b   Data          13  mscuser.o(.bss)
+    VCOM_TxBuff                              0x20002678   Data          64  cdcuser.o(.bss)
+    VCOM_TxRingBuff                          0x200026b8   Data          16  cdcuser.o(.bss)
+    VCOM_RxBuff                              0x200026c8   Data          64  cdcuser.o(.bss)
+    VCOM_RxRingBuff                          0x20002708   Data          16  cdcuser.o(.bss)
+    BulkBufIn                                0x20002718   Data          64  cdcuser.o(.bss)
+    BulkBufOut                               0x20002758   Data          64  cdcuser.o(.bss)
+    NotificationBuf                          0x20002798   Data          10  cdcuser.o(.bss)
+    CDC_OutBuf                               0x200027a4   Data          72  cdcuser.o(.bss)
+    __initial_sp                             0x20002ff8   Number         0  startup_mkl25z4.o ABSOLUTE
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x00000411
+
+  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x00003684, Max: 0x00020000, ABSOLUTE)
+
+    Execution Region ER_IROM1 (Base: 0x00000000, Size: 0x000035a8, Max: 0x00020000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x00000400   Data   RO          227    RESET               startup_mkl25z4.o
+    0x00000400   0x00000010   Code   RO          228    .ARM.__at_0x400     startup_mkl25z4.o
+    0x00000410   0x00000000   Code   RO          616  * .ARM.Collect$$$$00000000  mc_p.l(entry.o)
+    0x00000410   0x00000004   Code   RO          627    .ARM.Collect$$$$00000001  mc_p.l(entry2.o)
+    0x00000414   0x00000004   Code   RO          630    .ARM.Collect$$$$00000004  mc_p.l(entry5.o)
+    0x00000418   0x00000000   Code   RO          632    .ARM.Collect$$$$00000008  mc_p.l(entry7b.o)
+    0x00000418   0x00000000   Code   RO          634    .ARM.Collect$$$$0000000A  mc_p.l(entry8b.o)
+    0x00000418   0x00000008   Code   RO          635    .ARM.Collect$$$$0000000B  mc_p.l(entry9a.o)
+    0x00000420   0x00000000   Code   RO          637    .ARM.Collect$$$$0000000D  mc_p.l(entry10a.o)
+    0x00000420   0x00000000   Code   RO          639    .ARM.Collect$$$$0000000F  mc_p.l(entry11a.o)
+    0x00000420   0x00000004   Code   RO          628    .ARM.Collect$$$$00002712  mc_p.l(entry2.o)
+    0x00000424   0x0000006c   Code   RO            3    .text               flashprog.o
+    0x00000490   0x00000554   Code   RO           78    .text               project_bootloader.o
+    0x000009e4   0x00000214   Code   RO          167    .text               system_mkl25z4.o
+    0x00000bf8   0x00000114   Code   RO          201    .text               sysinit.o
+    0x00000d0c   0x0000001c   Code   RO          229    .text               startup_mkl25z4.o
+    0x00000d28   0x000000f8   Code   RO          237    .text               spi.o
+    0x00000e20   0x00000098   Code   RO          278    .text               ringbuf.o
+    0x00000eb8   0x000001a0   Code   RO          292    .text               flash_ftfa.o
+    0x00001058   0x00000098   Code   RO          339    .text               hiduser.o
+    0x000010f0   0x00000560   Code   RO          369    .text               usbcore.o
+    0x00001650   0x00000680   Code   RO          457    .text               usbhw.o
+    0x00001cd0   0x000000c8   Code   RO          508    .text               usbuser.o
+    0x00001d98   0x000009b4   Code   RO          538    .text               mscuser.o
+    0x0000274c   0x00000338   Code   RO          568    .text               cdcuser.o
+    0x00002a84   0x000002c4   Code   RO          595    .text               sst25.o
+    0x00002d48   0x0000002c   Code   RO          619    .text               mc_p.l(uidiv.o)
+    0x00002d74   0x00000028   Code   RO          621    .text               mc_p.l(idiv.o)
+    0x00002d9c   0x00000014   Code   RO          623    .text               mc_p.l(uread4.o)
+    0x00002db0   0x00000012   Code   RO          625    .text               mc_p.l(uwrite4.o)
+    0x00002dc2   0x00000002   PAD
+    0x00002dc4   0x00000024   Code   RO          641    .text               mc_p.l(init.o)
+    0x00002de8   0x0000000c   Ven    RO          651    Veneer$$Code        anon$$obj.o
+    0x00002df4   0x00000118   Code   RO          400    i.USB_ReqGetDescriptor  usbcore.o
+    0x00002f0c   0x000000c4   Code   RO          388    i.USB_ReqGetStatus  usbcore.o
+    0x00002fd0   0x0000011c   Code   RO          394    i.USB_ReqSetClrFeature  usbcore.o
+    0x000030ec   0x000001bc   Code   RO          406    i.USB_ReqSetConfiguration  usbcore.o
+    0x000032a8   0x00000140   Code   RO          412    i.USB_ReqSetInterface  usbcore.o
+    0x000033e8   0x0000001c   Code   RO          185    i.__ARM_common_switch8  system_mkl25z4.o
+    0x00003404   0x0000000e   Code   RO          645    i.__scatterload_copy  mc_p.l(handlers.o)
+    0x00003412   0x00000002   Code   RO          646    i.__scatterload_null  mc_p.l(handlers.o)
+    0x00003414   0x0000000e   Code   RO          647    i.__scatterload_zeroinit  mc_p.l(handlers.o)
+    0x00003422   0x0000011b   Data   RO          488    .constdata          usbdesc.o
+    0x0000353d   0x00000003   PAD
+    0x00003540   0x00000018   Data   RO          509    .constdata          usbuser.o
+    0x00003558   0x00000050   Data   RO          643    Region$$Table       anon$$obj.o
+
+
+    Execution Region RW_IRAM1 (Base: 0x1ffff000, Size: 0x000009e0, Max: 0x00001000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x1ffff000   0x0000000b   Data   RW          459    .data               usbhw.o
+    0x1ffff00b   0x00000001   PAD
+    0x1ffff00c   0x00000002   Data   RW          510    .data               usbuser.o
+    0x1ffff00e   0x000001f2   PAD
+    0x1ffff200   0x000007e0   Zero   RW          458    .bss                usbhw.o
+
+
+    Execution Region RW_IRAM2 (Base: 0x20000000, Size: 0x000027ec, Max: 0x00003000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x00000020   Code   RO          319    .text               flash_ramfunc.o
+    0x20000020   0x00000020   Data   RW           80    .data               project_bootloader.o
+    0x20000040   0x00000004   Data   RW          168    .data               system_mkl25z4.o
+    0x20000044   0x00000018   Data   RW          202    .data               sysinit.o
+    0x2000005c   0x00000003   Data   RW          341    .data               hiduser.o
+    0x2000005f   0x00000001   PAD
+    0x20000060   0x00000028   Data   RW          371    .data               usbcore.o
+    0x20000088   0x00000032   Data   RW          540    .data               mscuser.o
+    0x200000ba   0x0000000e   Data   RW          570    .data               cdcuser.o
+    0x200000c8   0x00000004   Data   RW          596    .data               sst25.o
+    0x200000cc   0x00001480   Zero   RW           79    .bss                project_bootloader.o
+    0x2000154c   0x00000040   Zero   RW          370    .bss                usbcore.o
+    0x2000158c   0x000010ec   Zero   RW          539    .bss                mscuser.o
+    0x20002678   0x00000174   Zero   RW          569    .bss                cdcuser.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+       824         46          0         14        372       6485   cdcuser.o
+       416         10          0          0          0       1861   flash_ftfa.o
+        32          6          0          0          0        436   flash_ramfunc.o
+       108          8          0          0          0     104402   flashprog.o
+       152         16          0          3          0       2365   hiduser.o
+      2484        144          0         50       4332       6210   mscuser.o
+      1364        134          0         32       5248     112046   project_bootloader.o
+       152          0          0          0          0       1795   ringbuf.o
+       248         36          0          0          0        847   spi.o
+       708         12          0          4          0       3576   sst25.o
+        44         24       1024          0          0        896   startup_mkl25z4.o
+       276         50          0         24          0       7114   sysinit.o
+       560         62          0          4          0       1297   system_mkl25z4.o
+      2900        260          0         40         64      11285   usbcore.o
+         0          0        283          0          0       6873   usbdesc.o
+      1664         72          0         11       2016     104628   usbhw.o
+       200         10         24          2          0       2686   usbuser.o
+
+    ----------------------------------------------------------------------
+     12144        894       1414        188      12528     374802   Object Totals
+        12          4         80          0          0          0   (incl. Generated)
+         0          0          3          4        496          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+         0          0          0          0          0          0   entry.o
+         0          0          0          0          0          0   entry10a.o
+         0          0          0          0          0          0   entry11a.o
+         8          4          0          0          0          0   entry2.o
+         4          0          0          0          0          0   entry5.o
+         0          0          0          0          0          0   entry7b.o
+         0          0          0          0          0          0   entry8b.o
+         8          4          0          0          0          0   entry9a.o
+        30          0          0          0          0          0   handlers.o
+        40          0          0          0          0         72   idiv.o
+        36          8          0          0          0         68   init.o
+        44          0          0          0          0         72   uidiv.o
+        20          0          0          0          0         60   uread4.o
+        18          0          0          0          0         60   uwrite4.o
+
+    ----------------------------------------------------------------------
+       210         16          0          0          0        332   Library Totals
+         2          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+       208         16          0          0          0        332   mc_p.l
+
+    ----------------------------------------------------------------------
+       210         16          0          0          0        332   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+     12354        910       1414        188      12528     373366   Grand Totals
+     12354        910       1414        188      12528     373366   ELF Image Totals
+     12354        910       1414        188          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                13768 (  13.45kB)
+    Total RW  Size (RW Data + ZI Data)             12716 (  12.42kB)
+    Total ROM Size (Code + RO Data + RW Data)      13956 (  13.63kB)
+
+==============================================================================
+

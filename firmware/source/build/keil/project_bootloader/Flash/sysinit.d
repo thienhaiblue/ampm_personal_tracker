@@ -1,0 +1,17 @@
+.\flash\sysinit.o: ..\..\..\src\projects\project_bootloader\sysinit.c
+.\flash\sysinit.o: ..\..\..\src\common\common.h
+.\flash\sysinit.o: ..\..\..\src\platforms\freedom.h
+.\flash\sysinit.o: ..\..\..\src\drivers\mcg\mcg.h
+.\flash\sysinit.o: ..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include\MKL25Z4.h
+.\flash\sysinit.o: C:\Keil\ARM\CMSIS\Include\core_cm0plus.h
+.\flash\sysinit.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\flash\sysinit.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\flash\sysinit.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\flash\sysinit.o: ..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include\system_MKL25Z4.h
+.\flash\sysinit.o: ..\..\..\src\cpu\headers\CMSIS\MemMapPtr_KL25Z4.h
+.\flash\sysinit.o: ..\..\..\src\common\assert.h
+.\flash\sysinit.o: ..\..\..\src\common\io.h
+.\flash\sysinit.o: ..\..\..\src\common\startup.h
+.\flash\sysinit.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\flash\sysinit.o: ..\..\..\src\cpu\headers\CMSIS\MemMapPtr_KL25Z4.h
+.\flash\sysinit.o: ..\..\..\src\projects\project_bootloader\sysinit.h

@@ -1,0 +1,9 @@
+\bin\Debug\
+\bin\Release\
+\bin\x86
+\bin\x64\Release\
+\bin\x64\Debug\log0
+\bin\x64\Debug\log1
+\bin\x64\Debug\log2
+\bin\x64\Debug\log3
+\obj\

@@ -1,0 +1,307 @@
+Dependencies for Project 'project_bootloader', Target 'KL25Z128 - Flash': (DO NOT MODIFY !)
+F (..\..\..\src\projects\project_bootloader\FlashProg.c)(0x533E1D50)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\src\projects\project_bootloader -I..\..\..\src\common -I..\..\..\src\cpu -I..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include -I..\..\..\src\drivers\llwu -I..\..\..\src\drivers\lptmr -I..\..\..\src\drivers\mcg -I..\..\..\src\drivers\pmc -I..\..\..\src\drivers\rcm -I..\..\..\src\drivers\rtc -I..\..\..\src\drivers\smc -I..\..\..\src\drivers\uart -I..\..\..\src\drivers\cmp -I..\..\..\src\platforms -I..\.. -I..\..\..\src\cpu\headers\CMSIS -I..\..\..\src\drivers\flash -I..\..\..\src\drivers\usb -I..\..\..\src\Libraries\common_lib\flash_mem -I..\..\..\src\drivers\spi -I..\..\..\src\Libraries\common_lib\ringbuff -I..\..\..\src\drivers\FTFA-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -DUSB -D__NOT_USE_HID_RESPORT_FUNC__ -o .\flash\flashprog.o --omf_browse .\flash\flashprog.crf --depend .\flash\flashprog.d)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\common.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\platforms\freedom.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\mcg\mcg.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\MKL25Z4.h)(0x533E1D4F)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x51C7C35A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7C35A)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\system_MKL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MemMapPtr_KL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\assert.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\io.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\startup.h)(0x533E1D4F)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\flash\fmc.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\flashprog.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\FTFA\flash_FTFA.h)(0x533E1D4F)
+F (..\..\..\src\projects\project_bootloader\project_bootloader.c)(0x533E9B52)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\src\projects\project_bootloader -I..\..\..\src\common -I..\..\..\src\cpu -I..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include -I..\..\..\src\drivers\llwu -I..\..\..\src\drivers\lptmr -I..\..\..\src\drivers\mcg -I..\..\..\src\drivers\pmc -I..\..\..\src\drivers\rcm -I..\..\..\src\drivers\rtc -I..\..\..\src\drivers\smc -I..\..\..\src\drivers\uart -I..\..\..\src\drivers\cmp -I..\..\..\src\platforms -I..\.. -I..\..\..\src\cpu\headers\CMSIS -I..\..\..\src\drivers\flash -I..\..\..\src\drivers\usb -I..\..\..\src\Libraries\common_lib\flash_mem -I..\..\..\src\drivers\spi -I..\..\..\src\Libraries\common_lib\ringbuff -I..\..\..\src\drivers\FTFA-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -DUSB -D__NOT_USE_HID_RESPORT_FUNC__ -o .\flash\project_bootloader.o --omf_browse .\flash\project_bootloader.crf --depend .\flash\project_bootloader.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\common.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\platforms\freedom.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\mcg\mcg.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\MKL25Z4.h)(0x533E1D4F)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7C35A)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\system_MKL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MemMapPtr_KL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\assert.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\io.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\startup.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\flash\fmc.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usb.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\usbcfg.h)(0x53C2C7A6)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usbhw.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usbcore.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\hiduser.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\Libraries\common_lib\ringbuff\ringbuf.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\cdcuser.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\spi\spi.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\Libraries\common_lib\flash_mem\sst25.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\start.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\flashprog.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\sysinit.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\hw_config.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\FTFA\flash_FTFA.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\llwu\llwu.h)(0x533E1D4F)
+F (..\..\..\src\cpu\system_MKL25Z4.c)(0x533E1D4F)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\src\projects\project_bootloader -I..\..\..\src\common -I..\..\..\src\cpu -I..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include -I..\..\..\src\drivers\llwu -I..\..\..\src\drivers\lptmr -I..\..\..\src\drivers\mcg -I..\..\..\src\drivers\pmc -I..\..\..\src\drivers\rcm -I..\..\..\src\drivers\rtc -I..\..\..\src\drivers\smc -I..\..\..\src\drivers\uart -I..\..\..\src\drivers\cmp -I..\..\..\src\platforms -I..\.. -I..\..\..\src\cpu\headers\CMSIS -I..\..\..\src\drivers\flash -I..\..\..\src\drivers\usb -I..\..\..\src\Libraries\common_lib\flash_mem -I..\..\..\src\drivers\spi -I..\..\..\src\Libraries\common_lib\ringbuff -I..\..\..\src\drivers\FTFA-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -DUSB -D__NOT_USE_HID_RESPORT_FUNC__ -o .\flash\system_mkl25z4.o --omf_browse .\flash\system_mkl25z4.crf --depend .\flash\system_mkl25z4.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\MKL25Z4.h)(0x533E1D4F)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7C35A)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\system_MKL25Z4.h)(0x533E1D4F)
+F (..\..\..\src\cpu\arm_cm0.c)(0x533E1D4F)()
+F (..\..\..\src\projects\project_bootloader\sysinit.c)(0x533E1D50)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\src\projects\project_bootloader -I..\..\..\src\common -I..\..\..\src\cpu -I..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include -I..\..\..\src\drivers\llwu -I..\..\..\src\drivers\lptmr -I..\..\..\src\drivers\mcg -I..\..\..\src\drivers\pmc -I..\..\..\src\drivers\rcm -I..\..\..\src\drivers\rtc -I..\..\..\src\drivers\smc -I..\..\..\src\drivers\uart -I..\..\..\src\drivers\cmp -I..\..\..\src\platforms -I..\.. -I..\..\..\src\cpu\headers\CMSIS -I..\..\..\src\drivers\flash -I..\..\..\src\drivers\usb -I..\..\..\src\Libraries\common_lib\flash_mem -I..\..\..\src\drivers\spi -I..\..\..\src\Libraries\common_lib\ringbuff -I..\..\..\src\drivers\FTFA-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -DUSB -D__NOT_USE_HID_RESPORT_FUNC__ -o .\flash\sysinit.o --omf_browse .\flash\sysinit.crf --depend .\flash\sysinit.d)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\common.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\platforms\freedom.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\mcg\mcg.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\MKL25Z4.h)(0x533E1D4F)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x51C7C35A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7C35A)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\system_MKL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MemMapPtr_KL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\assert.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\io.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\startup.h)(0x533E1D4F)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\sysinit.h)(0x533E1D50)
+F (..\..\..\src\projects\project_bootloader\startup_MKL25Z4.s)(0x533E9B68)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis--list .\uv4build\startup_mkl25z4.lst --xref -o .\flash\startup_mkl25z4.o --depend .\flash\startup_mkl25z4.d)
+F (..\..\..\src\drivers\spi\spi.c)(0x533E1D4F)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\src\projects\project_bootloader -I..\..\..\src\common -I..\..\..\src\cpu -I..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include -I..\..\..\src\drivers\llwu -I..\..\..\src\drivers\lptmr -I..\..\..\src\drivers\mcg -I..\..\..\src\drivers\pmc -I..\..\..\src\drivers\rcm -I..\..\..\src\drivers\rtc -I..\..\..\src\drivers\smc -I..\..\..\src\drivers\uart -I..\..\..\src\drivers\cmp -I..\..\..\src\platforms -I..\.. -I..\..\..\src\cpu\headers\CMSIS -I..\..\..\src\drivers\flash -I..\..\..\src\drivers\usb -I..\..\..\src\Libraries\common_lib\flash_mem -I..\..\..\src\drivers\spi -I..\..\..\src\Libraries\common_lib\ringbuff -I..\..\..\src\drivers\FTFA-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -DUSB -D__NOT_USE_HID_RESPORT_FUNC__ -o .\flash\spi.o --omf_browse .\flash\spi.crf --depend .\flash\spi.d)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\spi\spi.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\common.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\platforms\freedom.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\mcg\mcg.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\MKL25Z4.h)(0x533E1D4F)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x51C7C35A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7C35A)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\system_MKL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MemMapPtr_KL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\assert.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\io.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\startup.h)(0x533E1D4F)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+F (..\..\..\src\drivers\flash\fmc.c)(0x533E1D4F)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\src\projects\project_bootloader -I..\..\..\src\common -I..\..\..\src\cpu -I..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include -I..\..\..\src\drivers\llwu -I..\..\..\src\drivers\lptmr -I..\..\..\src\drivers\mcg -I..\..\..\src\drivers\pmc -I..\..\..\src\drivers\rcm -I..\..\..\src\drivers\rtc -I..\..\..\src\drivers\smc -I..\..\..\src\drivers\uart -I..\..\..\src\drivers\cmp -I..\..\..\src\platforms -I..\.. -I..\..\..\src\cpu\headers\CMSIS -I..\..\..\src\drivers\flash -I..\..\..\src\drivers\usb -I..\..\..\src\Libraries\common_lib\flash_mem -I..\..\..\src\drivers\spi -I..\..\..\src\Libraries\common_lib\ringbuff -I..\..\..\src\drivers\FTFA-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -DUSB -D__NOT_USE_HID_RESPORT_FUNC__ -o .\flash\fmc.o --omf_browse .\flash\fmc.crf --depend .\flash\fmc.d)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\common.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\platforms\freedom.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\mcg\mcg.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\MKL25Z4.h)(0x533E1D4F)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x51C7C35A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7C35A)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\system_MKL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MemMapPtr_KL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\assert.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\io.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\startup.h)(0x533E1D4F)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\flash\fmc.h)(0x533E1D4F)
+F (..\..\..\src\Libraries\common_lib\ringbuff\ringbuf.c)(0x533E1D50)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\src\projects\project_bootloader -I..\..\..\src\common -I..\..\..\src\cpu -I..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include -I..\..\..\src\drivers\llwu -I..\..\..\src\drivers\lptmr -I..\..\..\src\drivers\mcg -I..\..\..\src\drivers\pmc -I..\..\..\src\drivers\rcm -I..\..\..\src\drivers\rtc -I..\..\..\src\drivers\smc -I..\..\..\src\drivers\uart -I..\..\..\src\drivers\cmp -I..\..\..\src\platforms -I..\.. -I..\..\..\src\cpu\headers\CMSIS -I..\..\..\src\drivers\flash -I..\..\..\src\drivers\usb -I..\..\..\src\Libraries\common_lib\flash_mem -I..\..\..\src\drivers\spi -I..\..\..\src\Libraries\common_lib\ringbuff -I..\..\..\src\drivers\FTFA-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -DUSB -D__NOT_USE_HID_RESPORT_FUNC__ -o .\flash\ringbuf.o --omf_browse .\flash\ringbuf.crf --depend .\flash\ringbuf.d)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\Libraries\common_lib\ringbuff\ringbuf.h)(0x533E1D50)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+F (..\..\..\src\drivers\FTFA\flash_FTFA.c)(0x533E1D4F)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\src\projects\project_bootloader -I..\..\..\src\common -I..\..\..\src\cpu -I..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include -I..\..\..\src\drivers\llwu -I..\..\..\src\drivers\lptmr -I..\..\..\src\drivers\mcg -I..\..\..\src\drivers\pmc -I..\..\..\src\drivers\rcm -I..\..\..\src\drivers\rtc -I..\..\..\src\drivers\smc -I..\..\..\src\drivers\uart -I..\..\..\src\drivers\cmp -I..\..\..\src\platforms -I..\.. -I..\..\..\src\cpu\headers\CMSIS -I..\..\..\src\drivers\flash -I..\..\..\src\drivers\usb -I..\..\..\src\Libraries\common_lib\flash_mem -I..\..\..\src\drivers\spi -I..\..\..\src\Libraries\common_lib\ringbuff -I..\..\..\src\drivers\FTFA-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -DUSB -D__NOT_USE_HID_RESPORT_FUNC__ -o .\flash\flash_ftfa.o --omf_browse .\flash\flash_ftfa.crf --depend .\flash\flash_ftfa.d)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\common.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\platforms\freedom.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\mcg\mcg.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\MKL25Z4.h)(0x533E1D4F)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x51C7C35A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7C35A)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\system_MKL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MemMapPtr_KL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\assert.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\io.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\startup.h)(0x533E1D4F)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\FTFA\flash_FTFA.h)(0x533E1D4F)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+F (..\..\..\src\drivers\FTFA\flash_ramFunc.c)(0x533E1D4F)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\src\projects\project_bootloader -I..\..\..\src\common -I..\..\..\src\cpu -I..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include -I..\..\..\src\drivers\llwu -I..\..\..\src\drivers\lptmr -I..\..\..\src\drivers\mcg -I..\..\..\src\drivers\pmc -I..\..\..\src\drivers\rcm -I..\..\..\src\drivers\rtc -I..\..\..\src\drivers\smc -I..\..\..\src\drivers\uart -I..\..\..\src\drivers\cmp -I..\..\..\src\platforms -I..\.. -I..\..\..\src\cpu\headers\CMSIS -I..\..\..\src\drivers\flash -I..\..\..\src\drivers\usb -I..\..\..\src\Libraries\common_lib\flash_mem -I..\..\..\src\drivers\spi -I..\..\..\src\Libraries\common_lib\ringbuff -I..\..\..\src\drivers\FTFA-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -DUSB -D__NOT_USE_HID_RESPORT_FUNC__ -o .\flash\flash_ramfunc.o --omf_browse .\flash\flash_ramfunc.crf --depend .\flash\flash_ramfunc.d)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\common.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\platforms\freedom.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\mcg\mcg.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\MKL25Z4.h)(0x533E1D4F)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x51C7C35A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7C35A)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\system_MKL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MemMapPtr_KL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\assert.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\io.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\startup.h)(0x533E1D4F)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+F (..\..\..\src\platforms\tower.h)(0x533E1D4F)()
+F (..\..\..\src\cpu\headers\MKL25Z4.h)(0x533E1D4F)()
+F (..\..\..\src\cpu\headers\MemMapPtr_KL25Z4.h)(0x00000000)()
+F (..\..\..\src\drivers\usb\hiduser.c)(0x533E1E41)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\src\projects\project_bootloader -I..\..\..\src\common -I..\..\..\src\cpu -I..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include -I..\..\..\src\drivers\llwu -I..\..\..\src\drivers\lptmr -I..\..\..\src\drivers\mcg -I..\..\..\src\drivers\pmc -I..\..\..\src\drivers\rcm -I..\..\..\src\drivers\rtc -I..\..\..\src\drivers\smc -I..\..\..\src\drivers\uart -I..\..\..\src\drivers\cmp -I..\..\..\src\platforms -I..\.. -I..\..\..\src\cpu\headers\CMSIS -I..\..\..\src\drivers\flash -I..\..\..\src\drivers\usb -I..\..\..\src\Libraries\common_lib\flash_mem -I..\..\..\src\drivers\spi -I..\..\..\src\Libraries\common_lib\ringbuff -I..\..\..\src\drivers\FTFA-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -DUSB -D__NOT_USE_HID_RESPORT_FUNC__ -o .\flash\hiduser.o --omf_browse .\flash\hiduser.crf --depend .\flash\hiduser.d)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usb.h)(0x533E1D4F)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usbhw.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\hid.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\usbcfg.h)(0x53C2C7A6)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usbcore.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\hiduser.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\Libraries\common_lib\ringbuff\ringbuf.h)(0x533E1D50)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\common.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\platforms\freedom.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\mcg\mcg.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\MKL25Z4.h)(0x533E1D4F)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7C35A)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\system_MKL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MemMapPtr_KL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\assert.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\io.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\startup.h)(0x533E1D4F)
+F (..\..\..\src\drivers\usb\usbcore.c)(0x533E1D4F)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\src\projects\project_bootloader -I..\..\..\src\common -I..\..\..\src\cpu -I..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include -I..\..\..\src\drivers\llwu -I..\..\..\src\drivers\lptmr -I..\..\..\src\drivers\mcg -I..\..\..\src\drivers\pmc -I..\..\..\src\drivers\rcm -I..\..\..\src\drivers\rtc -I..\..\..\src\drivers\smc -I..\..\..\src\drivers\uart -I..\..\..\src\drivers\cmp -I..\..\..\src\platforms -I..\.. -I..\..\..\src\cpu\headers\CMSIS -I..\..\..\src\drivers\flash -I..\..\..\src\drivers\usb -I..\..\..\src\Libraries\common_lib\flash_mem -I..\..\..\src\drivers\spi -I..\..\..\src\Libraries\common_lib\ringbuff -I..\..\..\src\drivers\FTFA-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -DUSB -D__NOT_USE_HID_RESPORT_FUNC__ -o .\flash\usbcore.o --omf_browse .\flash\usbcore.crf --depend .\flash\usbcore.d)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usb.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\usbcfg.h)(0x53C2C7A6)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usbhw.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usbcore.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\usbdesc.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\usbuser.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\common.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\platforms\freedom.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\mcg\mcg.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\MKL25Z4.h)(0x533E1D4F)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7C35A)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\system_MKL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MemMapPtr_KL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\assert.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\io.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\startup.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\hid.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\hiduser.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\Libraries\common_lib\ringbuff\ringbuf.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\msc.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\mscuser.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\cdc.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\cdcuser.h)(0x533E1D4F)
+F (..\..\..\src\drivers\usb\usbhw.c)(0x533E1D4F)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\src\projects\project_bootloader -I..\..\..\src\common -I..\..\..\src\cpu -I..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include -I..\..\..\src\drivers\llwu -I..\..\..\src\drivers\lptmr -I..\..\..\src\drivers\mcg -I..\..\..\src\drivers\pmc -I..\..\..\src\drivers\rcm -I..\..\..\src\drivers\rtc -I..\..\..\src\drivers\smc -I..\..\..\src\drivers\uart -I..\..\..\src\drivers\cmp -I..\..\..\src\platforms -I..\.. -I..\..\..\src\cpu\headers\CMSIS -I..\..\..\src\drivers\flash -I..\..\..\src\drivers\usb -I..\..\..\src\Libraries\common_lib\flash_mem -I..\..\..\src\drivers\spi -I..\..\..\src\Libraries\common_lib\ringbuff -I..\..\..\src\drivers\FTFA-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -DUSB -D__NOT_USE_HID_RESPORT_FUNC__ -o .\flash\usbhw.o --omf_browse .\flash\usbhw.crf --depend .\flash\usbhw.d)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\MKL25Z4.H)(0x533E1D4F)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x51C7C35A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7C35A)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\system_MKL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usb.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\usbcfg.h)(0x53C2C7A6)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usbreg.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usbhw.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usbcore.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\usbuser.h)(0x533E1D50)
+F (..\..\..\src\projects\project_bootloader\usbdesc.c)(0x533E1D50)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\src\projects\project_bootloader -I..\..\..\src\common -I..\..\..\src\cpu -I..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include -I..\..\..\src\drivers\llwu -I..\..\..\src\drivers\lptmr -I..\..\..\src\drivers\mcg -I..\..\..\src\drivers\pmc -I..\..\..\src\drivers\rcm -I..\..\..\src\drivers\rtc -I..\..\..\src\drivers\smc -I..\..\..\src\drivers\uart -I..\..\..\src\drivers\cmp -I..\..\..\src\platforms -I..\.. -I..\..\..\src\cpu\headers\CMSIS -I..\..\..\src\drivers\flash -I..\..\..\src\drivers\usb -I..\..\..\src\Libraries\common_lib\flash_mem -I..\..\..\src\drivers\spi -I..\..\..\src\Libraries\common_lib\ringbuff -I..\..\..\src\drivers\FTFA-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -DUSB -D__NOT_USE_HID_RESPORT_FUNC__ -o .\flash\usbdesc.o --omf_browse .\flash\usbdesc.crf --depend .\flash\usbdesc.d)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usb.h)(0x533E1D4F)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\cdc.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\msc.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\hid.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\usbcfg.h)(0x53C2C7A6)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\usbdesc.h)(0x533E1D50)
+F (..\..\..\src\projects\project_bootloader\usbuser.c)(0x533E1D50)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\src\projects\project_bootloader -I..\..\..\src\common -I..\..\..\src\cpu -I..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include -I..\..\..\src\drivers\llwu -I..\..\..\src\drivers\lptmr -I..\..\..\src\drivers\mcg -I..\..\..\src\drivers\pmc -I..\..\..\src\drivers\rcm -I..\..\..\src\drivers\rtc -I..\..\..\src\drivers\smc -I..\..\..\src\drivers\uart -I..\..\..\src\drivers\cmp -I..\..\..\src\platforms -I..\.. -I..\..\..\src\cpu\headers\CMSIS -I..\..\..\src\drivers\flash -I..\..\..\src\drivers\usb -I..\..\..\src\Libraries\common_lib\flash_mem -I..\..\..\src\drivers\spi -I..\..\..\src\Libraries\common_lib\ringbuff -I..\..\..\src\drivers\FTFA-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -DUSB -D__NOT_USE_HID_RESPORT_FUNC__ -o .\flash\usbuser.o --omf_browse .\flash\usbuser.crf --depend .\flash\usbuser.d)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usb.h)(0x533E1D4F)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\usbcfg.h)(0x53C2C7A6)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usbhw.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usbcore.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\usbuser.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\mscuser.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\cdcuser.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\Libraries\common_lib\ringbuff\ringbuf.h)(0x533E1D50)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\common.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\platforms\freedom.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\mcg\mcg.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\MKL25Z4.h)(0x533E1D4F)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7C35A)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\system_MKL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MemMapPtr_KL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\assert.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\io.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\startup.h)(0x533E1D4F)
+F (..\..\..\src\projects\project_bootloader\mscuser.c)(0x533E1D50)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\src\projects\project_bootloader -I..\..\..\src\common -I..\..\..\src\cpu -I..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include -I..\..\..\src\drivers\llwu -I..\..\..\src\drivers\lptmr -I..\..\..\src\drivers\mcg -I..\..\..\src\drivers\pmc -I..\..\..\src\drivers\rcm -I..\..\..\src\drivers\rtc -I..\..\..\src\drivers\smc -I..\..\..\src\drivers\uart -I..\..\..\src\drivers\cmp -I..\..\..\src\platforms -I..\.. -I..\..\..\src\cpu\headers\CMSIS -I..\..\..\src\drivers\flash -I..\..\..\src\drivers\usb -I..\..\..\src\Libraries\common_lib\flash_mem -I..\..\..\src\drivers\spi -I..\..\..\src\Libraries\common_lib\ringbuff -I..\..\..\src\drivers\FTFA-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -DUSB -D__NOT_USE_HID_RESPORT_FUNC__ -o .\flash\mscuser.o --omf_browse .\flash\mscuser.crf --depend .\flash\mscuser.d)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usb.h)(0x533E1D4F)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\msc.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\usbcfg.h)(0x53C2C7A6)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usbhw.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usbcore.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\mscuser.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\common.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\platforms\freedom.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\mcg\mcg.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\MKL25Z4.h)(0x533E1D4F)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7C35A)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\system_MKL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MemMapPtr_KL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\assert.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\io.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\startup.h)(0x533E1D4F)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\spi\spi.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\Libraries\common_lib\flash_mem\sst25.h)(0x533E1D50)
+F (..\..\..\src\projects\project_bootloader\cdcuser.c)(0x533E1D50)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\src\projects\project_bootloader -I..\..\..\src\common -I..\..\..\src\cpu -I..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include -I..\..\..\src\drivers\llwu -I..\..\..\src\drivers\lptmr -I..\..\..\src\drivers\mcg -I..\..\..\src\drivers\pmc -I..\..\..\src\drivers\rcm -I..\..\..\src\drivers\rtc -I..\..\..\src\drivers\smc -I..\..\..\src\drivers\uart -I..\..\..\src\drivers\cmp -I..\..\..\src\platforms -I..\.. -I..\..\..\src\cpu\headers\CMSIS -I..\..\..\src\drivers\flash -I..\..\..\src\drivers\usb -I..\..\..\src\Libraries\common_lib\flash_mem -I..\..\..\src\drivers\spi -I..\..\..\src\Libraries\common_lib\ringbuff -I..\..\..\src\drivers\FTFA-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -DUSB -D__NOT_USE_HID_RESPORT_FUNC__ -o .\flash\cdcuser.o --omf_browse .\flash\cdcuser.crf --depend .\flash\cdcuser.d)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usb.h)(0x533E1D4F)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usbhw.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\usbcfg.h)(0x53C2C7A6)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\usb\usbcore.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\cdc.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\projects\project_bootloader\cdcuser.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\Libraries\common_lib\ringbuff\ringbuf.h)(0x533E1D50)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\common.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\platforms\freedom.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\mcg\mcg.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\MKL25Z4.h)(0x533E1D4F)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7C35A)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\system_MKL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MemMapPtr_KL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\assert.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\io.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\startup.h)(0x533E1D4F)
+F (..\..\..\src\Libraries\common_lib\flash_mem\sst25.c)(0x5361D199)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\src\projects\project_bootloader -I..\..\..\src\common -I..\..\..\src\cpu -I..\..\..\src\cpu\headers\CMSIS\MKL25Z4\Include -I..\..\..\src\drivers\llwu -I..\..\..\src\drivers\lptmr -I..\..\..\src\drivers\mcg -I..\..\..\src\drivers\pmc -I..\..\..\src\drivers\rcm -I..\..\..\src\drivers\rtc -I..\..\..\src\drivers\smc -I..\..\..\src\drivers\uart -I..\..\..\src\drivers\cmp -I..\..\..\src\platforms -I..\.. -I..\..\..\src\cpu\headers\CMSIS -I..\..\..\src\drivers\flash -I..\..\..\src\drivers\usb -I..\..\..\src\Libraries\common_lib\flash_mem -I..\..\..\src\drivers\spi -I..\..\..\src\Libraries\common_lib\ringbuff -I..\..\..\src\drivers\FTFA-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -DUSB -D__NOT_USE_HID_RESPORT_FUNC__ -o .\flash\sst25.o --omf_browse .\flash\sst25.crf --depend .\flash\sst25.d)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\Libraries\common_lib\flash_mem\sst25.h)(0x533E1D50)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\spi\spi.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\common.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\platforms\freedom.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\drivers\mcg\mcg.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\MKL25Z4.h)(0x533E1D4F)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7C35A)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MKL25Z4\Include\system_MKL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\cpu\headers\CMSIS\MemMapPtr_KL25Z4.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\assert.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\io.h)(0x533E1D4F)
+I (D:\AMPM\SVN\GT1022\trunk\firmware\Freescale - HWV3\source\src\common\startup.h)(0x533E1D4F)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
